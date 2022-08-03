@@ -9,7 +9,7 @@ theme:
     - search.share  # 搜索分享
 
   name: material
-  custom_dir: overrides
+#  custom_dir: overrides
   language: zh  # 语言
 
   # 主题颜色
