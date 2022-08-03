@@ -15,15 +15,47 @@ jobs:
           python-version: 3.x
       - run: pip install mkdocs-material
       - run: mkdocs gh-deploy --force
+
+# 主题
 theme:
+  features:
+    - navigation.tabs  # 导航
+    - search.suggest  # 搜索建议
+    - search.highlight  # 搜索高亮
+    - search.share  # 搜索分享
+
   name: material
   custom_dir: overrides
+  language: zh  # 语言
 
+  # 主题颜色
   palette:
-    scheme: youtube
-#    scheme: slate  # 背景 default | slate
-#    primary: 0000  # 主体颜色
-#    accent: red  # 链接 按钮等颜色
+    scheme: slate  # 背景 default | slate
+    primary: red  # 主体颜色
+    accent: red  # 链接 按钮等颜色
 
-extra_css:
-  - stylesheets/extra.css
+# 导航
+nav:
+  - 基础:
+    - index.md
+    - Page 1: index.md
+    - Page n: index.md
+    - Page w: https://google.com  # 网址
+
+# 社交链接
+extra:
+  social:
+    - icon: fontawesome/brands/twitter  # 推特
+      link: https://twitter.com/squidfunk
+    - icon: fontawesome/brands/facebook  # 脸书
+      link: https://twitter.com/squidfunk
+    - icon: fontawesome/brands/github  # GitHub
+      link: https://twitter.com/squidfunk
+
+
+# GitHub 仓库
+repo_url: https://github.com/DerekDekker/Docu
+
+
+markdown_extensions:
+  - admonition

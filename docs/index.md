@@ -14,7 +14,18 @@ python 语言基础代码
 容器型    list    dict     tuple    set
 ```
 
-bool[^bool]
+!!! info inline end
+
+    Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit. Nulla et euismod nulla.
+    Curabitur feugiat, tortor non consequat
+    finibus, justo purus auctor massa, nec
+    semper lorem quam in massa.
+
+
+
+
+
 
 ### 变量定义
 
