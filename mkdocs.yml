@@ -15,3 +15,15 @@ jobs:
           python-version: 3.x
       - run: pip install mkdocs-material
       - run: mkdocs gh-deploy --force
+theme:
+  name: material
+  custom_dir: overrides
+
+  palette:
+    scheme: youtube
+#    scheme: slate  # 背景 default | slate
+#    primary: 0000  # 主体颜色
+#    accent: red  # 链接 按钮等颜色
+
+extra_css:
+  - stylesheets/extra.css
