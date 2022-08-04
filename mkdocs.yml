@@ -7,8 +7,8 @@ theme:
     - search.suggest  # 搜索建议
     - search.highlight  # 搜索高亮
     - search.share  # 搜索分享
-  logo: assets/logo.png  # Logo
-  favicon: assets/favicon.png  # 图标
+#  logo: assets/logo.png  # Logo
+#  favicon: assets/favicon.png  # 图标
 
   name: material
 #  custom_dir: overrides
