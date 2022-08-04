@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dfc3574f-812d-4a7f-9499-43bca6084161" name="变更" comment="test">
-      <change afterPath="$PROJECT_DIR$/docs/Markdown/代码.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Material for MkDocs/代码.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/SQLModel/FaseAPI.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/SQLModel/database.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/SQLModel/model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/SQLModel/代码结构/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/SQLModel/代码结构/database.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/SQLModel/代码结构/database.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/SQLModel/代码结构/hero_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/SQLModel/代码结构/team_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/SQLModel/增.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/SQLModel/查.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/SQLModel/框架.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mkdocs.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/404.html" afterDir="false" />
-    </list>
+    <list default="true" id="dfc3574f-812d-4a7f-9499-43bca6084161" name="变更" comment="test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -158,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659603007724</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="test">
+      <created>1659607374672</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1659607374672</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
