@@ -2,62 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfc3574f-812d-4a7f-9499-43bca6084161" name="变更" comment="test">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Django/Django_REST_framework/rest.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Django/Django_REST_framework/serializers.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Django/ORM/SQL.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Django/ORM/代码.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Django/ORM/修改.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Django/ORM/删除.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Django/ORM/增加.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Django/ORM/查询.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Django/Websocket/Websocket.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Django/Websocket/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Django/Websocket/connection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Django/Websocket/middleware.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Django/admin.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Django/model.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Django/settings.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Django/templates.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Django/urls.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Django/views.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Django/扩展.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Django/框架.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Linux/AT指令.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Linux/Arch.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Linux/功能.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Linux/命令.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Linux/工具.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Linux/知识.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/MySql/SQL.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/MySql/命令.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/设计模式/01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/设计模式/代理模式_09/chain_of_responsibility.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/设计模式/代理模式_09/test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/设计模式/单例模式_01/singleton.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/设计模式/原型模式_02/Archer_1.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/设计模式/原型模式_02/Knight_1.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/设计模式/原型模式_02/rts_multi_unit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/设计模式/原型模式_02/核心/Archer_1.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/设计模式/原型模式_02/核心/Archer_2.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/设计模式/原型模式_02/核心/Knight_1.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/设计模式/原型模式_02/核心/Knight_2.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/设计模式/原型模式_02/核心/concrete.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/设计模式/原型模式_02/核心/prototype_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/设计模式/原型模式_02/核心/rts_prototype.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/设计模式/外观模式_08/facade.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/设计模式/工厂模式_03/工厂方法.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/设计模式/工厂模式_03/抽象工厂.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/设计模式/工厂模式_03/简单工厂.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/设计模式/建造者模式_04/builder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/设计模式/桥模式_06/bridge.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/设计模式/模板模式_13/template_method.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/设计模式/策略模式_12/strategy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/设计模式/组合模式_07/composite.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/设计模式/观察者模式_11/observer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/设计模式/责任链模式_10/responsibility.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/设计模式/适配器模式_05/adapter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Redis/代码.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Redis/命令.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Redis/数据类型.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/SQLtie/Join.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/SQLtie/SQL.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/树莓派/基础.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/网络/TCP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/网络/UDP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/网络/socket.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/设计模式/index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/设计模式/01.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/设计模式/代理模式_09/chain_of_responsibility.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/设计模式/代理模式_09/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/设计模式/外观模式_08/facade.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/设计模式/工厂模式_03/工厂方法.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/设计模式/工厂模式_03/抽象工厂.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/设计模式/建造者模式_04/builder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/设计模式/桥模式_06/bridge.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/设计模式/模板模式_13/template_method.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/设计模式/策略模式_12/strategy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/设计模式/组合模式_07/composite.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/设计模式/观察者模式_11/observer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/设计模式/责任链模式_10/responsibility.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/设计模式/适配器模式_05/adapter.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mkdocs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mkdocs.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,20 +50,21 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/设计模式" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs" />
+      <recent name="$PROJECT_DIR$/docs/硬件" />
       <recent name="$PROJECT_DIR$/docs/设计模式" />
       <recent name="$PROJECT_DIR$/docs/MySql" />
-      <recent name="$PROJECT_DIR$/docs" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/site" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs" />
       <recent name="$PROJECT_DIR$/docs/Django/Django REST framework" />
       <recent name="$PROJECT_DIR$/docs/assets" />
       <recent name="$PROJECT_DIR$/docs/images" />
@@ -166,7 +136,21 @@
       <option name="project" value="LOCAL" />
       <updated>1659596149746</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="test">
+      <created>1659600895018</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1659600895018</updated>
+    </task>
+    <task id="LOCAL-00006" summary="test">
+      <created>1659600908751</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1659600908751</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

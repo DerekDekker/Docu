@@ -39,17 +39,39 @@ nav:
     - pip: Python/pip.md
     - os: Python/os.md
     - beautifulsoup4: Python/beautifulsoup4.md
+    - 网络:
+        - socket: 网络/socket.md
+        - TCP: 网络/TCP.md
+        - UDP: 网络/UDP.md
   - 设计模式:
       - 单例模式:
           - 代码: 设计模式/单例模式_01/singleton.md
       - 原型模式:
           - 代码: 设计模式/原型模式_02/singleton.md
       - 工厂模式:
-          - 代码: 设计模式/工厂模式_03/简单工厂.md
-      - 单例模式:
-          - 代码: 设计模式/单例模式_01/singleton.md
-      - 单例模式:
-          - 代码: 设计模式/单例模式_01/singleton.md
+          - 简单工厂: 设计模式/工厂模式_03/简单工厂.md
+          - 抽象工厂: 设计模式/工厂模式_03/抽象工厂.md
+          - 工厂方法: 设计模式/工厂模式_03/工厂方法.md
+      - 建造者模式:
+          - 代码: 设计模式/建造者模式_04/builder.md
+      - 适配器模式:
+          - 代码: 设计模式/适配器模式_05/adapter.md
+      - 桥模式:
+          - 代码: 设计模式/桥模式_06/bridge.md
+      - 组合模式:
+          - 代码: 设计模式/组合模式_07/composite.md
+      - 外观模式:
+          - 代码: 设计模式/外观模式_08/facade.md
+      - 代理模式:
+          - 代码: 设计模式/代理模式_09/chain_of_responsibility.md
+      - 责任链模式:
+          - 代码: 设计模式/责任链模式_10/responsibility.md
+      - 观察者模式:
+          - 代码: 设计模式/观察者模式_11/observer.md
+      - 策略模式:
+          - 代码: 设计模式/策略模式_12/strategy.md
+      - 模板模式:
+          - 代码: 设计模式/模板模式_13/template_method.md
   - Django:
       - 框架: Django/框架.md
       - Model: Django/model.md
@@ -73,3 +95,31 @@ nav:
     - MySql:
         - SQL: MySql/SQL.md
         - 命令: MySql/命令.md
+    - Redis:
+        - 数据类型: Redis/数据类型.md
+        - 代码: Redis/代码.md
+        - 命令: Redis/命令.md
+    - SQLtie:
+        - SQL: SQLtie/SQL.md
+        - Join: SQLtie/Join.md
+  - Docker:
+      - 命令: Docker/命令.md
+      - 基础: Docker/Dockerfile基础.md
+      - docker-compose: Docker/docker-compose.md
+      - Dockerfile: Docker/Dockerfile.md
+      - Kubernetes: Docker/Kubernetes.md
+  - 硬件:
+      - 树莓派:
+          - 基础: 树莓派/基础.md
+          - 知识: 树莓派/知识.md
+          - 树莓派: 树莓派/树莓派.md
+          - 命令: 树莓派/命令.md
+          - GPIO: 树莓派/GPIO.md
+
+  - 密码学:
+      - 基础: 密码学/基础.md
+      - AES: 密码学/AES.md
+      - RSA: 密码学/RSA.md
+      - Hashing: 密码学/Hashing.md
+      - MAC: 密码学/MAC.md
+      - Two-factor authentication: 密码学/Two-factor authentication.md
