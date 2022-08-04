@@ -19,6 +19,11 @@ theme:
     primary: indigo  # 主体颜色
     accent: light blue  # 链接 按钮等颜色
 
+  icon:
+    admonition:
+      <type>: material/lightbulb-alert
+
+
 # 社交链接
 extra:
   social:
@@ -32,6 +37,18 @@ extra:
 # GitHub 仓库
 repo_url: https://github.com/DerekDekker/Docu
 
+# 开启扩展
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - footnotes
+  - pymdownx.emoji:
+        emoji_index: !!python/name:materialx.emoji.twemoji
+        emoji_generator: !!python/name:materialx.emoji.to_svg
+
 # 导航
 nav:
   - 首页:
@@ -41,6 +58,7 @@ nav:
     - 数据类型: Python/数据类型.md
     - pip: Python/pip.md
     - os: Python/os.md
+    - requests: Python/Requests.md
     - beautifulsoup4: Python/beautifulsoup4.md
     - 网络:
         - socket: 网络/socket.md

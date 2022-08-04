@@ -2,11 +2,8 @@
 
 安装Python模块
 
-
-
-[toc]
-
-
+Debian下安装
+sudo apt-get install python3-pip
 
 ---
 
