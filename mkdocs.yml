@@ -11,7 +11,6 @@ theme:
   favicon: assets/favicon.png  # 图标
 
   name: material
-#  custom_dir: overrides
   language: zh  # 语言
 
   # 主题颜色
@@ -35,6 +34,8 @@ repo_url: https://github.com/DerekDekker/Docu
 
 # 导航
 nav:
+  - 首页:
+    - index.md
   - Python:
     - 基础: Python/基础.md
     - 数据类型: Python/数据类型.md
@@ -98,9 +99,9 @@ nav:
       - pydantic: FastAPI/pydantic.md
       - 扩展: FastAPI/扩展.md
   - SQLModel:
-      - 代码: index.md
+      - 代码: home/index.md
   - PySide:
-      - 代码: index.md
+      - 代码: home/index.md
   - Linux:
       - 命令: Linux/命令.md
       - 工具: Linux/工具.md
@@ -116,7 +117,7 @@ nav:
         - SQL: SQLtie/SQL.md
         - Join: SQLtie/Join.md
     - Mong DB:
-        - 代码: index.md
+        - 代码: home/index.md
     - Redis:
         - 数据类型: Redis/数据类型.md
         - 代码: Redis/代码.md
@@ -143,19 +144,19 @@ nav:
       - MAC: 密码学/MAC.md
       - Two-factor authentication: 密码学/Two-factor authentication.md
   - Flutter:
-      - pass: index.md
+      - pass: home/index.md
   - 中间件:
       - Nginx:
           - 框架: Nginx/框架.md
           - 站点配置参数: Nginx/站点配置参数.md
           - HoleHub-Django: Nginx/HoleHub-Django.md
       - Mqtt:
-          - 代码: index.md
+          - 代码: home/index.md
 
   - 扩展:
       - Markdown:
         - 代码: Markdown/代码.md
         - Material for MkDocs: Material for MkDocs/代码.md
       - Tor:
-          - 代码: index.md
+          - 代码: home/index.md
 

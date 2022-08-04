@@ -1,18 +1,29 @@
-# Welcome to MkDocs
+# 介绍
+## 我的个人文档
 
-DerekDekker [个人博客](https://derekdekker.com).
+Hi 我是 DerekDekker [个人博客](https://derekdekker.com).
 
-## Commands
+这是我的个人文档，用于我个人使用。
+## 文档
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+[Python](/Python/基础/)
+[设计模式](/设计模式/单例模式_01/singleton/)
+[Django](/Django/框架/)
+[FastAPI](/FastAPI/基础/)
+[SQLModel](#)
+[PySide](#)
+[Linux](/Linux/命令/)
+[MySql](/MySql/SQL/)
+[SQLtie](/SQLtie/SQL/)
+[Mong DB 准备学习](#)
+[Redis](/Redis/数据类型/)
+[Docker](/Docker/命令/)
+[树莓派](/树莓派/基础/)
+[密码学](/密码学/基础/)
+[Flutter 正在学习](#)
+[Nginx](/Nginx/框架/)
+[Mqtt 准备学习](#)
+### 扩展
+[Markdown](/Markdown/代码/)
+[Tor 准备学习](#)
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
-## lllpppp11
