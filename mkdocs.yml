@@ -7,6 +7,8 @@ theme:
     - search.suggest  # 搜索建议
     - search.highlight  # 搜索高亮
     - search.share  # 搜索分享
+  logo: assets/logo.png  # Logo
+  favicon: assets/favicon.png  # 图标
 
   name: material
 #  custom_dir: overrides
@@ -15,8 +17,8 @@ theme:
   # 主题颜色
   palette:
     scheme: slate  # 背景 default | slate
-    primary: red  # 主体颜色
-    accent: red  # 链接 按钮等颜色
+    primary: indigo  # 主体颜色
+    accent: light blue  # 链接 按钮等颜色
 
 # 社交链接
 extra:
@@ -84,6 +86,21 @@ nav:
       - Django REST framework:
           - rest: Django/Django_REST_framework/rest.md
           - serializers: Django/Django_REST_framework/serializers.md
+  - FastAPI:
+      - 基础: FastAPI/基础.md
+      - 框架: FastAPI/框架.md
+      - 安全与认证: FastAPI/安全与认证.md
+      - 数据类型: FastAPI/数据类型.md
+      - 依赖: FastAPI/依赖.md
+      - database: FastAPI/database.md
+      - HTML: FastAPI/HTML.md
+      - model: FastAPI/model.md
+      - pydantic: FastAPI/pydantic.md
+      - 扩展: FastAPI/扩展.md
+  - SQLModel:
+      - 代码: index.md
+  - PySide:
+      - 代码: index.md
   - Linux:
       - 命令: Linux/命令.md
       - 工具: Linux/工具.md
@@ -95,13 +112,15 @@ nav:
     - MySql:
         - SQL: MySql/SQL.md
         - 命令: MySql/命令.md
+    - SQLtie:
+        - SQL: SQLtie/SQL.md
+        - Join: SQLtie/Join.md
+    - Mong DB:
+        - 代码: index.md
     - Redis:
         - 数据类型: Redis/数据类型.md
         - 代码: Redis/代码.md
         - 命令: Redis/命令.md
-    - SQLtie:
-        - SQL: SQLtie/SQL.md
-        - Join: SQLtie/Join.md
   - Docker:
       - 命令: Docker/命令.md
       - 基础: Docker/Dockerfile基础.md
@@ -123,3 +142,19 @@ nav:
       - Hashing: 密码学/Hashing.md
       - MAC: 密码学/MAC.md
       - Two-factor authentication: 密码学/Two-factor authentication.md
+  - Flutter:
+      - pass: index.md
+  - 中间件:
+      - Nginx:
+          - 框架: Nginx/框架.md
+          - 站点配置参数: Nginx/站点配置参数.md
+          - HoleHub-Django: Nginx/HoleHub-Django.md
+      - Mqtt:
+          - 代码: index.md
+
+  - 扩展:
+      - Markdown:
+        - 代码: Markdown/代码.md
+        - Material for MkDocs: Material for MkDocs/代码.md
+      - Tor:
+          - 代码: index.md

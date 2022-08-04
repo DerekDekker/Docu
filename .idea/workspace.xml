@@ -2,32 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfc3574f-812d-4a7f-9499-43bca6084161" name="变更" comment="test">
-      <change afterPath="$PROJECT_DIR$/docs/Redis/代码.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Redis/命令.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Redis/数据类型.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/SQLtie/Join.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/SQLtie/SQL.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/树莓派/基础.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/网络/TCP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/网络/UDP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/网络/socket.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/设计模式/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Markdown/代码.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Material for MkDocs/代码.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/SQLModel/FaseAPI.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/SQLModel/database.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/SQLModel/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/SQLModel/代码结构/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/SQLModel/代码结构/database.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/SQLModel/代码结构/database.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/SQLModel/代码结构/hero_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/SQLModel/代码结构/team_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/SQLModel/增.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/SQLModel/查.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/SQLModel/框架.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/设计模式/01.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/设计模式/代理模式_09/chain_of_responsibility.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/设计模式/代理模式_09/test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/设计模式/外观模式_08/facade.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/设计模式/工厂模式_03/工厂方法.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/设计模式/工厂模式_03/抽象工厂.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/设计模式/建造者模式_04/builder.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/设计模式/桥模式_06/bridge.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/设计模式/模板模式_13/template_method.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/设计模式/策略模式_12/strategy.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/设计模式/组合模式_07/composite.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/设计模式/观察者模式_11/observer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/设计模式/责任链模式_10/responsibility.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/设计模式/适配器模式_05/adapter.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mkdocs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mkdocs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/404.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +28,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="2CrAET6T9q9Z4olPqXH036QtPAY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -50,21 +50,22 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/assets" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs/assets" />
       <recent name="$PROJECT_DIR$/docs" />
+      <recent name="$PROJECT_DIR$/docs/Nginx" />
       <recent name="$PROJECT_DIR$/docs/硬件" />
       <recent name="$PROJECT_DIR$/docs/设计模式" />
-      <recent name="$PROJECT_DIR$/docs/MySql" />
-      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/docs" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/docs/Django/Django REST framework" />
       <recent name="$PROJECT_DIR$/docs/assets" />
       <recent name="$PROJECT_DIR$/docs/images" />
@@ -150,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659600908751</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="test">
+      <created>1659603007724</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1659603007724</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
