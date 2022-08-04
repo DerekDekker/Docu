@@ -1,0 +1,8 @@
+https://pypi.python.org/pypi	插件信息网站
+
+import py_compile	导包
+	py_compile.compile('源码文件.py')		源码文件编译    可以在cmd，python操作
+	python -O -m py_compile 源码文件.py		源码文件优化    可以在cmd操作
+文件名修改 .pyw             	隐藏命令行
+	.py    .pyc    .pyo    .pyw
+
