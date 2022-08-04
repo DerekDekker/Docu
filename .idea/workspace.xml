@@ -2,35 +2,62 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfc3574f-812d-4a7f-9499-43bca6084161" name="变更" comment="test">
-      <change afterPath="$PROJECT_DIR$/docs/Python/Conda.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Python/PyCharm.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Python/Redis.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Python/Requests.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Python/SQLite.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Python/beautifulsoup4.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Python/configparser.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Python/logging.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Python/os.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Python/pip.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Python/python蓝牙.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Python/serial.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Python/subprocess.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Python/sys.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Python/包.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Python/命令.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Python/命令行执行Python代码.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Python/基础.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Python/多线程.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Python/定时任务.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Python/异常.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Python/执行命令.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Python/数据类型.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Python/文件读取.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Python/时间.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Python/正则表达式.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Python/类.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Django/Django_REST_framework/rest.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Django/Django_REST_framework/serializers.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Django/ORM/SQL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Django/ORM/代码.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Django/ORM/修改.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Django/ORM/删除.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Django/ORM/增加.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Django/ORM/查询.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Django/Websocket/Websocket.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Django/Websocket/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Django/Websocket/connection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Django/Websocket/middleware.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Django/admin.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Django/model.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Django/settings.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Django/templates.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Django/urls.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Django/views.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Django/扩展.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Django/框架.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Linux/AT指令.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Linux/Arch.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Linux/功能.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Linux/命令.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Linux/工具.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Linux/知识.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/MySql/SQL.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/MySql/命令.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/设计模式/01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/设计模式/代理模式_09/chain_of_responsibility.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/设计模式/代理模式_09/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/设计模式/单例模式_01/singleton.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/设计模式/原型模式_02/Archer_1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/设计模式/原型模式_02/Knight_1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/设计模式/原型模式_02/rts_multi_unit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/设计模式/原型模式_02/核心/Archer_1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/设计模式/原型模式_02/核心/Archer_2.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/设计模式/原型模式_02/核心/Knight_1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/设计模式/原型模式_02/核心/Knight_2.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/设计模式/原型模式_02/核心/concrete.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/设计模式/原型模式_02/核心/prototype_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/设计模式/原型模式_02/核心/rts_prototype.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/设计模式/外观模式_08/facade.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/设计模式/工厂模式_03/工厂方法.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/设计模式/工厂模式_03/抽象工厂.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/设计模式/工厂模式_03/简单工厂.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/设计模式/建造者模式_04/builder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/设计模式/桥模式_06/bridge.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/设计模式/模板模式_13/template_method.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/设计模式/策略模式_12/strategy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/设计模式/组合模式_07/composite.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/设计模式/观察者模式_11/observer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/设计模式/责任链模式_10/responsibility.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/设计模式/适配器模式_05/adapter.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mkdocs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mkdocs.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +69,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2CrAET6T9q9Z4olPqXH036QtPAY" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -50,19 +79,23 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/设计模式" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs/设计模式" />
+      <recent name="$PROJECT_DIR$/docs/MySql" />
       <recent name="$PROJECT_DIR$/docs" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/site" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs/Django/Django REST framework" />
       <recent name="$PROJECT_DIR$/docs/assets" />
       <recent name="$PROJECT_DIR$/docs/images" />
     </key>

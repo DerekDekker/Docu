@@ -39,5 +39,37 @@ nav:
     - pip: Python/pip.md
     - os: Python/os.md
     - beautifulsoup4: Python/beautifulsoup4.md
-
-
+  - 设计模式:
+      - 单例模式:
+          - 代码: 设计模式/单例模式_01/singleton.md
+      - 原型模式:
+          - 代码: 设计模式/原型模式_02/singleton.md
+      - 工厂模式:
+          - 代码: 设计模式/工厂模式_03/简单工厂.md
+      - 单例模式:
+          - 代码: 设计模式/单例模式_01/singleton.md
+      - 单例模式:
+          - 代码: 设计模式/单例模式_01/singleton.md
+  - Django:
+      - 框架: Django/框架.md
+      - Model: Django/model.md
+      - View: Django/views.md
+      - Admin: Django/admin.md
+      - Settings: Django/settings.md
+      - templates: Django/templates.md
+      - urls: Django/urls.md
+      - 扩展: Django/扩展.md
+      - Django REST framework:
+          - rest: Django/Django_REST_framework/rest.md
+          - serializers: Django/Django_REST_framework/serializers.md
+  - Linux:
+      - 命令: Linux/命令.md
+      - 工具: Linux/工具.md
+      - 知识: Linux/知识.md
+      - 功能: Linux/功能.md
+      - AT指令: Linux/AT指令.md
+      - Arch Linux: Linux/Arch.md
+  - 数据库:
+    - MySql:
+        - SQL: MySql/SQL.md
+        - 命令: MySql/命令.md

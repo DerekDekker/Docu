@@ -1,0 +1,35 @@
+pip install daphne
+
+启动
+daphne Websocket.asgi:application
+
+连接地址
+ws://127.0.0.1:8003/?auth=111
+
+SSL 连接
+wss://127.0.0.1:8003/?auth=111
+
+auth 为参数
+
+
+
+
+----------------------------------------------------------------URL.py
+from django.urls import path
+from users import views
+
+websocket = path
+
+urlpatterns = [
+    path("", views.IndexView.as_view()),
+    websocket("ws/", views.websocket_view),
+]
+
+----------------------------------------------------------------websocket逻辑代码
+async def websocket_view(socket):
+    await socket.accept()
+    print(type(socket))
+    while True:
+        message = await socket.receive_text()
+        await socket.send_text(message)
+        print(socket.query_string)

@@ -1,0 +1,15 @@
+extra
+.extra(where=[SQL])
+表.objects.extra(select={'count':'SQL'})
+
+raw,一般用在查询
+表.objects.raw('SQL')
+
+自定义SQL
+from django.db import connection
+cursor = connection.cursor()		获得游标
+
+cursor.execute('SQL')
+
+cursor.fetchone()			获得单个值
+cursor.fetchall()			获得多个值
