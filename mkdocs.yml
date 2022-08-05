@@ -56,10 +56,25 @@ nav:
   - Python:
     - 基础: Python/基础.md
     - 数据类型: Python/数据类型.md
-    - pip: Python/pip.md
+    - open: Python/open.md
     - os: Python/os.md
+    - sys: Python/sys.md
+    - pip: Python/pip.md
     - requests: Python/Requests.md
+    - 时间: Python/时间.md
     - beautifulsoup4: Python/beautifulsoup4.md
+    - logging: Python/logging.md
+    - 定时任务: Python/定时任务.md
+    - 多线程: Python/多线程.md
+    - 包: Python/包.md
+    - 类: Python/类.md
+    - 异常: Python/异常.md
+    - 正则表达式: Python/正则表达式.md
+    - 扩展:
+        - PyCharm: Python/PyCharm.md
+        - Conda: Python/Conda.md
+        - 蓝牙: Python/蓝牙.md
+        - serial: Python/serial.md
     - 网络:
         - socket: 网络/socket.md
         - TCP: 网络/TCP.md

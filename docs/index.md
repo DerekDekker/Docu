@@ -32,5 +32,17 @@ Hi 我是 DerekDekker 是一位后端工程师。
 [Markdown](/Markdown/代码/)
 [Tor 准备学习](#)
 
+### 等待完善
 
+[sys](/Python/sys/)
+[logging](/Python/logging/)
+[时间](/Python/时间/)
+[定时任务](/Python/定时任务/)
+[多线程](/Python/多线程/)
+[包](/Python/包/)
+[类](/Python/类/)
+[异常](/Python/异常/)
+[正则表达式](/Python/正则表达式/)
+[蓝牙](/Python/蓝牙/)
+[serial](/Python/serial/)
 

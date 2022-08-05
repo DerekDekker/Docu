@@ -5,6 +5,9 @@
 Debian下安装
 sudo apt-get install python3-pip
 
+插件信息网站
+https://pypi.python.org/pypi
+
 ---
 
 ## 语法

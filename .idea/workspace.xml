@@ -2,22 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfc3574f-812d-4a7f-9499-43bca6084161" name="变更" comment="test">
-      <change afterPath="$PROJECT_DIR$/1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Docu.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Python/Redis.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Python/Requests.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Python/beautifulsoup4.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Python/beautifulsoup4.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Python/os.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Python/os.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Python/Conda.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Python/PyCharm.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Python/SQLite.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Python/configparser.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Python/logging.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/Python/pip.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Python/pip.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Python/基础.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Python/基础.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Python/数据类型.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Python/数据类型.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Python/python蓝牙.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Python/serial.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Python/subprocess.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Python/sys.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Python/包.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Python/命令.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Python/命令行执行Python代码.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Python/多线程.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Python/定时任务.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Python/异常.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Python/执行命令.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Python/文件读取.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Python/时间.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Python/正则表达式.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Python/类.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mkdocs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mkdocs.yml" afterDir="false" />
     </list>
@@ -123,7 +129,8 @@
       <workItem from="1659620405949" duration="34000" />
       <workItem from="1659620443701" duration="83000" />
       <workItem from="1659620546359" duration="603000" />
-      <workItem from="1659621414583" duration="4063000" />
+      <workItem from="1659621414583" duration="7675000" />
+      <workItem from="1659675414999" duration="656000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1659552239071</created>
@@ -181,7 +188,21 @@
       <option name="project" value="LOCAL" />
       <updated>1659607374672</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="test">
+      <created>1659625493527</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1659625493527</updated>
+    </task>
+    <task id="LOCAL-00010" summary="test">
+      <created>1659625500100</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1659625500100</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
