@@ -1,4 +1,4 @@
-# 介绍
+# 首页
 
 Hi 我是 DerekDekker 是一位后端工程师。
 
@@ -42,7 +42,6 @@ Hi 我是 DerekDekker 是一位后端工程师。
 [包](/Python/包/)
 [类](/Python/类/)
 [异常](/Python/异常/)
-[正则表达式](/Python/正则表达式/)
 [蓝牙](/Python/蓝牙/)
 [serial](/Python/serial/)
 
