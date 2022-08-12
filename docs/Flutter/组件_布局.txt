@@ -1,0 +1,218 @@
+Container
+Column     垂直方向
+Row        水平方向
+Flex
+Expanded   可伸缩组件
+Wrap       流式布局
+Stack      层叠布局
+
+
+
+----------------------------------------------------------------Container布局
+Container(
+  hild: Center(
+    child:
+));
+
+color: ,  // 颜色
+
+child  // 声明子组件
+padding  // 内边距
+    EdgeInsets.all(30.0)
+    EdgeInsets.fromLTRB(0, 10, 0, 0)
+
+margin  // 外边距
+    EdgeInsets.all(30.0)
+    EdgeInsets.fromLTRB(0, 10, 0, 0)
+
+width: 20,  // 宽
+    double.infinity,  //无限
+
+height: 20,  //高
+    double.infinity,  //无限
+
+decoration
+    BoxDecoration(  // 边框  圆角  渐变  阴影  背景色  背景图
+        border: Border.all(  // 边框
+            width: 3,
+            color: Colors.red,
+        ),
+        border: Border(  // 边框 方向
+            left: BorderSide(
+              width: 2,
+              color: Colors.red,
+            ),
+        ),
+        borderRadius: BorderRadius.all(Radius.circular(12))  // 圆角
+        borderRadius: BorderRadius.only(  // 圆角 方向
+            bottomLeft: Radius.circular(12),
+            bottomRight: Radius.circular(12),
+        ),
+        color: ,  // 颜色
+        gradient: LinearGradient(  // 渐变
+            colors: [
+                Colors.red,
+                Colors.blue,
+            ],
+        ),
+    )
+      
+
+alignment  // 对齐
+    alignment: Alignment.center,  // 内容对齐
+
+transform  // 变形
+    Matrix4  // 平移translate  旋转rotate  缩放scale  斜切skew
+
+constraints: BoxConstraints(
+      minWidth: 200, // 最小宽度
+      minHeight:200,
+      maxWidth: 500, // 最大宽度
+      maxHeight:500,
+),
+
+----------------------------------------------------------------Column布局
+垂直方向
+mainAxisAlignment: MainAxisAlignment  // 主轴对齐方式
+    mainAxisAlignment: MainAxisAlignment.spaceEvenly,  // 对齐方式
+
+crossAxisAlignment: CrossAxisAlignment  // 交叉轴对齐方式
+    crossAxisAlignment: CrossAxisAlignment.center,  // 对齐方式
+
+children: [],  组件
+
+
+----------------------------------------------------------------Row布局
+水平方向
+其他与Column布局一致
+
+
+----------------------------------------------------------------Flex布局
+direction  // 主轴方向
+    Axis.horizontal,  // 水平方向
+    Axis.vertical,  // 垂直方向
+    
+
+mainAxisAlignment  // 主轴对齐方式
+    MainAxisAlignment.spaceAround
+
+textDirection: TextDirection.rtl,  // 水平方向排序顺序
+verticalDirection: VerticalDirection.up  // 垂直方向排序顺序
+crossAxisAlignment  // 交叉轴对齐方式
+children: ,  // 组件
+
+----------------------------------------------------------------Expanded可伸缩组件
+Expanded用于配合Flex布局
+flex: 2  // 布局所占比例
+child: ,  // 组件
+
+
+----------------------------------------------------------------Wrap流式布局
+解决内容溢出问题
+spacing: 8.0,  // 水平子组件的间距
+alignment: WrapAlignment.spaceAround,  // 主轴方向对齐方式
+runSpacing: 10,  // 垂直子组件的间距
+runAlignment: WrapAlignment.spaceAround,  // 交叉轴方向对齐方式
+children: ,  // 组件
+
+
+----------------------------------------------------------------Stack层叠布局
+alignment: AlignmentDirectional.bottomCenter,  // 组建对齐方式
+textDirection: TextDirection.rtl,  // 排序方式
+
+----------------------------------------------------------------ListView
+加载列表组件 
+带滚动效果 
+V加载所有Widget
+
+scrollDirection: Axis.vertical,  // 垂直滚动方向
+scrollDirection: Axis.horizontal,  // 水平滚动方向
+
+physics: BouncingScrollPhysics(),  // 弹性效果
+
+
+ListView.builder  // 按需加载Widget
+ListView.builder(
+  itemCount: users.length,  // 数组长度
+  itemExtent: 80,  // 每个元素的高度
+  padding: EdgeInsets.all(10),  // 内边距
+  itemBuilder: (context, index){  // 组件
+    return users[index];
+  },
+),
+
+ListView.separated  // 按需加载Widget 分割器
+ListView.separated(
+  itemCount: products.length,  // 数组长度
+  padding: EdgeInsets.all(10),  // 内边距
+  itemBuilder: (context, index){  // 组件
+    return products[index];
+  },
+  separatorBuilder: (context, index){  // 分割线
+    return Divider(  // 分割线组件
+      color: Colors.blueGrey,
+      thickness: 2,  // 厚度
+    );
+  },
+),
+
+
+ListView.custom  // 定制度更高
+
+----------------------------------------------------------------GridView网格列表布局
+children  // 组件
+scrollDirection  // 滚动方向
+
+
+gridDelegate: SliverGridDelegateWithFixedCrossAxisCount  // 指定固定列数 子组件宽度自适应
+    crossAxisCount: 2,  // 指定列数
+    mainAxisSpacing: 20,  // 主轴方向间距
+    crossAxisSpacing: 20,  // 交叉轴方向间距  子组件直接放图片会有问题
+    childAspectRatio: 1.5,  // 子组件宽高比例
+
+gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent  // 指定子组件最大宽度 列数自适应
+    maxCrossAxisExtent: 180,  // 子组件最大宽度
+    与上面一样
+
+
+GridView.count  // 固定列数 子组件宽度自适应
+    crossAxisCount: 2,  // 指定列数
+    mainAxisSpacing: 20,  // 主轴方向间距
+    crossAxisSpacing: 20,  // 交叉轴方向间距
+    padding: EdgeInsets.symmetric(horizontal: 40),  // 内边距
+    childAspectRatio: 1.5  // 子组件宽高比例 子组件直接放图片会有问题
+
+GridView.extend  // 指定子组件最大宽度 列数自适应
+    maxCrossAxisExtent: 100,  // 指定子组件最大宽度
+    与上面一样
+
+
+GridView.builder  // 动态网格布局  只显示可视区域内的子组件 子组件比较多的场景
+    gridDelegate: ,
+        SliverGridDelegateWithFixedCrossAxisCount  // 指定固定列数 子组件宽度自适应
+            与上面一样
+
+        SliverGridDelegateWithMaxCrossAxisExtent  // 指定子组件最大宽度 列数自适应
+            与上面一样
+
+    itemCount: _tiles.length,  // 元素个数
+    itemBuilder: (context, index){  // 组件
+        return _tiles[index];
+    },
+    physics: BouncingScrollPhysics(),  // 弹性效果  反弹效果
+
+
+----------------------------------------------------------------Expanded
+可以让文本换行
+
+
+
+----------------------------------------------------------------SizedBox 盒子
+SizedBox(
+  height:
+),
+
+
+
+
+

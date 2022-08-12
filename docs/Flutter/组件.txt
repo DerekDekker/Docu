@@ -1,0 +1,434 @@
+
+----------------------------------------------------------------MaterialApp
+MaterialApp(
+      title: "Flutter Demo",
+      home: Scaffold(),
+      debugShowCheckedModeBanner: false,  // Debug 关闭
+      theme: ThemeData(fontFamily: 'XiaoWei'),  // 全局字体
+)
+
+
+----------------------------------------------------------------Scaffold
+基本组件 页面
+
+Scaffold(
+      appBar: AppBar(),
+      body: ,
+      floatingActionButton: FloatingActionButton(),  // 浮动按钮
+      bottomNavigationBar: ,  // 底部导航
+          BottomNavigationBar()  // 底部导航
+          TabBar()  // 底部滑动导航
+);
+
+----------------------------------------------------------------AppBar
+应用程序
+
+AppBar(
+        title: Text("首页"),
+        leading: Icon(Icons.menu),  // 左边菜单
+        actions: [Icon(Icons.settings), Icon(Icons.settings)],  //右边菜单
+        elevation: 0.0,  // 阴影
+        centerTitle: true,  // 居中
+        drawer: Drawer(),  // 左侧菜单
+        endDrawer: endDrawer(),  // 右侧菜单
+        bottom: TabBar(),  // 底部滑动导航
+),
+
+
+----------------------------------------------------------------StatefulWidget无状态组件
+
+
+
+----------------------------------------------------------------Chip标签
+label: Text('茶花'),  // 文本
+avatar: CircleAvatar;  // 头像
+
+----------------------------------------------------------------CircleAvatar圆形头像
+backgroundColor: Colors.blueGrey,  // 颜色
+child: Text('T'),  // 文字
+radius: 20,  // 大小
+
+
+----------------------------------------------------------------Positioned绝对定位组件
+Positioned常用于Stack
+
+child  // 组件
+
+left: 50,  // 方向
+top: 50,  // 方向
+right: 50,  // 方向
+bottom: 50,  // 方向
+width  // 高度
+height  // 宽度
+
+
+----------------------------------------------------------------Card卡片
+child  // 组件
+color: Colors.yellow[100],  // 背景颜色
+shadowColor: Colors.red[100]  // 阴影颜色
+elevation: 20,  // 阴影高度
+margin: EdgeInsets.all(30),  // 外边距
+
+shape: RoundedRectangleBorder(  // 边框样式
+  borderRadius: BorderRadius.circular(25),  // 边框圆角
+)
+
+----------------------------------------------------------------NetworkImage网络图片组件
+NetworkImage与Image.asset本地图片一致
+
+NetworkImage  // 图片地址
+
+
+----------------------------------------------------------------Image.asset本地图片
+''  // 图片路径
+width: 200,
+height: 200,
+fit: BoxFit.cover,  // 展示方式
+
+----------------------------------------------------------------Text文本主件
+Text(
+  'Holle Holle Holle Holle',
+  textDirection: TextDirection.ltr,  // 文本方向
+  style: TextStyle(),
+  textAlign: TextAlign.center,  文本对齐
+  maxLines: 3,  // 行数
+  overflow: TextOverflow.ellipsis,  // 溢出方式
+  textScaleFactor: 1.5,  // 字体放大
+),
+
+
+----------------------------------------------------------------RichText
+text: TextSpan(),
+
+
+----------------------------------------------------------------TextSpan
+TextSpan(
+  text: 'Holle',
+  style: TextStyle(),
+  children: [],  // 存放其他TextSpan
+)
+
+
+----------------------------------------------------------------TextStyle
+TextStyle(   // 文本样式
+    fontSize: 30,
+    color: Colors.red,  // 文本颜色
+    fontWeight: FontWeight.w500,  // 字体粗细
+    fontStyle: FontStyle.italic,  // 斜体 字体样式
+    fontFamily: 'XiaoWei',  // 自定义字体
+  ),
+
+
+----------------------------------------------------------------Icon图标
+Icon(Icons.图标名称, size: 30,)
+
+
+----------------------------------------------------------------Color
+Color(0xFF42A5F5)
+Color.fromRGBO(66, 165, 245, 1.0)
+Color.fromARGB(0xff, 0x42, 0xA5, 0xF5)
+Color.fromARGB(255, 66, 165, 245)
+Colors.red
+
+
+----------------------------------------------------------------TextButton文本按钮
+child: Text('TextButton'),
+onPressed: (){  // 点击
+  print('点击');
+},
+
+onLongPress: (){  // 长按
+  print('长按');
+},
+
+style: ButtonStyle()  // 按钮样式
+
+
+----------------------------------------------------------------ElevatedButton按钮
+ElevatedButton跟TextButton文本按钮一样
+
+
+----------------------------------------------------------------OutlinedButton轮廓按钮
+OutlinedButton跟TextButton文本按钮一样
+
+
+----------------------------------------------------------------ButtonStyle按钮样式
+每个指定都需要加上
+属性: MaterialStateProperty.all(参数)
+
+MaterialStateProperty.resolveWith((states){
+  if (states.contains(MaterialState.pressed)){
+    // 按下按钮时的前景色
+    return Colors.red;
+  }
+  // 默认状态颜色
+  return Colors.amber;
+})
+
+
+textStyle: TextStyle(fontSize: 30)  // 字体大小
+textStyle: Colors.amber;  // 颜色
+backgroundColor: Colors.blueGrey[200];  // 背景色
+shadowColor: Colors.green  // 阴影颜色
+elevation: 3  // 阴影高度
+side: BorderSide(),  // 边框
+shape:  ,  // 形状
+    shape: MaterialStateProperty.all(StadiumBorder()),  // 体育场形状
+    shape: MaterialStateProperty.all(CircleBorder(),),  // 圆形
+
+minimumSize: Size(150,60)   // 最小宽高
+maximumSize: Size(200,200)  // 最大宽高
+overlayColor: Colors.deepPurple[100],  // 水波纹颜色
+
+
+----------------------------------------------------------------FloatingActionButton浮动按钮
+onPressed: ,  // 被点击
+tooltip: '怎么了',  // 长按提示
+child: Icon(Icons.add),  // 图标
+backgroundColor: Colors.greenAccent,  // 背景颜色
+elevation: 0,  // 阴影
+
+
+----------------------------------------------------------------IconButton图标按钮
+onPressed: ,  // 点击
+icon: Icon(Icons.ac_unit_outlined),  //	 图标
+color: Colors.green,  // 图标颜色
+splashColor: Colors.deepPurple[400],  // 水波纹
+highlightColor: Colors.red[100],  // 高亮
+tooltip: '怎么了',  // 长按提示
+
+----------------------------------------------------------------按钮.icon  按钮图标
+TextButton.icon  // 文本按钮图标
+ElevatedButton.icon  // 按钮图标
+OutlinedButton.icon  // 轮廓按钮图标
+
+onPressed: ,  // 点击
+icon: Icon(Icons.three_mp),  // 图标
+label: Text('图标按钮'),  // 提示
+
+----------------------------------------------------------------SingleChildScrollView列表滚动
+父级布局需要支持溢出如: Stack
+
+child  // 组件
+padding: EdgeInsets.all(10),  // 内边距
+scrollDirection: Axis.horizontal,  // 水平滚动 
+scrollDirection: Axis.vertical,  // 垂直滚动
+
+reverse: true,  // 初始滚动位置  false 头    true 尾
+physics  // 效果
+physics: BouncingScrollPhysics(),  // 弹性效果
+
+
+
+
+----------------------------------------------------------------physics滚动效果
+physics: BouncingScrollPhysics(),  // 弹性效果  反弹效果
+physics: ClampingScrollPhysics(),  // 弹性效果  夹住效果
+physics: AlwaysScrollableScrollPhysics(),  // 弹性效果  始终响应滚动 默认
+physics: NeverScrollableScrollPhysics(),  // 弹性效果  不响应滚动
+
+
+----------------------------------------------------------------SafeArea容器
+解决异形屏幕 适应屏幕
+child
+
+边距
+minimum: EdgeInsets.all(30),
+
+
+
+
+----------------------------------------------------------------AlertDialog提示框
+title: Text('提示'),  // 标题
+content: Text('确认删除吗'),  // 内容
+
+actions: [  //按钮
+    TextButton(),  //按钮
+    TextButton(),  //按钮
+]
+
+
+
+
+----------------------------------------------------------------shared_preferences
+
+
+
+----------------------------------------------------------------路由
+
+
+Navigator
+
+匿名路由
+Navigator.push(
+    context,
+    MaterialPageRoute(
+        builder: (context) => 组件(),
+    ),
+)
+
+初始路由
+initialRoute: '路由名',
+未知路由
+onUnknownRoute: (RouteSettings setting) => MaterialPageRoute(builder: (context) => 控件()),  
+
+动态路由 根据规则匹配路由
+onGenerateRoute: (RouteSettings setting) {
+    return MaterialPageRoute(builder: (context) => 组件(参数:值));
+}
+
+路由集合
+routes: {
+    'hole': (context) => 组件(),
+    'product': (context) => 组件(),
+},
+
+跳转到命名路由
+Navigator.pushNamed(context, '路由名或路径',arguments: {'字段': '参数'},)
+
+回退
+Navigator.pop(context)
+----------------------------------------------------------------Drawer左侧菜单
+左侧菜单
+Drawer内的child通常用ListView
+
+child: ,  // 组件
+
+----------------------------------------------------------------BottomNavigationBar底部导航
+Scaffold的body只需要用列表 变量[_selectedIndex] 即可
+
+int _selectedIndex = 0;  // 索引
+
+
+items: bottomNavItems,  // 导航菜单
+currentIndex: _selectedIndex,  // 展示索引页面
+type: BottomNavigationBarType.fixed,  // 显示类型
+    BottomNavigationBarType.shifting,
+
+selectedItemColor: Colors.green[800],  // 颜色
+
+点击执行
+onTap: (index) {
+    // 执行代码
+    _selectedIndex = index;
+},
+
+# 菜单具体内容
+final List<BottomNavigationBarItem> bottomNavItems = [
+    BottomNavigationBarItem(
+      icon: Icon(
+        Icons.home,
+      ),
+      backgroundColor: Colors.blue,
+      label: '首页',
+    ),
+    BottomNavigationBarItem(
+      icon: Icon(
+        Icons.home,
+      ),
+      backgroundColor: Colors.blue,
+      label: '首页',
+    ),
+ ];
+
+----------------------------------------------------------------TabBar滑动导航
+tabs: _tab,
+labelColor: Colors.deepOrange,  // 选中颜色
+unselectedLabelColor: Colors.deepPurple,  // 为选中颜色
+indicatorColor: Colors.greenAccent,  // 阴影颜色
+indicatorWeight: 10,  // 阴影大小
+indicatorSize: TabBarIndicatorSize.label,  // 阴影风格
+    TabBarIndicatorSize.label
+    TabBarIndicatorSize.tab
+
+
+----------------------------------------------------------------Switch开关选项
+Switch(
+    value: _switchValue,
+    onChanged: (bool val) {
+        setState(() {
+            _switchValue = val;
+        });
+    },
+    activeColor: Colors.greenAccent, // 颜色
+    activeTrackColor: Colors.deepPurple, // 轨道颜色
+    inactiveTrackColor: Colors.deepOrange, // 未选中 轨道颜色
+    inactiveThumbColor: Colors.yellow, // 未选中 颜色
+)
+
+----------------------------------------------------------------Checkbox复选框
+表单Form的Checkbox复选框
+
+value: this._transgender,
+onChanged: (bool? value) {
+    setState(() {
+        _transgender = value!;
+    });
+},
+activeColor: Colors.yellow, // 颜色
+checkColor: Colors.greenAccent, // 对号颜色
+
+----------------------------------------------------------------Radio单选框
+表单Form的Radio单选框
+value: 1,  // 和其他单选框用不同直
+groupValue: this.gender,  // 一组用同一个变量
+onChanged: (int? value) {
+    setState(() {
+        this.gender = value!;
+    });
+}
+
+activeColor: Colors.greenAccent,  // 颜色
+
+----------------------------------------------------------------TextField输入框
+表单Form的TextField输入框
+
+autofocus: true, // 获取焦点
+keyboardType: TextInputType.phone,  // 键盘类型
+maxLength: 11,  // 最多输入
+obscureText: true,  // 密码形式
+maxLines: 5,  // 文本域
+
+# 输入事件 value 文本框内容
+onChanged: (value) {
+    setState(() {
+        phone = value;
+    });
+},
+
+
+decoration: InputDecoration(
+    prefix: Icon(Icons.mobile_screen_share),  // 图标
+    label: Text('手机号'),  // 标题
+    hintText: '请输入手机号',  // 提示
+    // 获取焦点 样式
+    focusedBorder: UnderlineInputBorder(
+        borderSide: BorderSide(color: Colors.lightGreen),
+    ),
+    // 未获取焦点 样式
+    enabledBorder: UnderlineInputBorder(
+        borderSide: BorderSide(color: Colors.deepOrangeAccent),
+    ),
+    hintStyle: TextStyle();  // 提示文本样式
+）
+
+----------------------------------------------------------------Padding边距
+padding: EdgeInsets.all(10)
+
+
+
+
+
+----------------------------------------------------------------
+
+
+
+----------------------------------------------------------------
+
+
+
+----------------------------------------------------------------
+
+
+
+

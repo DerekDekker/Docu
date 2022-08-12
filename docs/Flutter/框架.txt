@@ -1,0 +1,38 @@
+
+
+----------------------------------------------------------------入口
+void main() {
+  runApp(MyApp());
+}
+
+----------------------------------------------------------------目录
+资源目录
+assets
+    image
+
+----------------------------------------------------------------文件
+配置文件
+pubspec.yaml
+
+----------------------------------------------------------------包
+import 'package:flutter/material.dart';  // 安卓风格
+import 'package:flutter/cupertion.dart';  // ios风格
+
+----------------------------------------------------------------配置
+
+flutter:
+  # 字体
+  fonts:
+    - family: XiaoWei
+      fonts:
+        - asset: assets/fonts/ZCOOL_XiaoWei/ZCOOLXiaoWei-Regular.ttf
+          # 粗细
+          weight: 700
+          # 斜体    italic 或 normal
+          style: italic
+
+
+----------------------------------------------------------------AndroidManifest.xml
+# 网络权限
+<uses-permission android:name="android.permission.INTERNET" />
+

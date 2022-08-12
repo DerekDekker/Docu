@@ -1,0 +1,135 @@
+
+
+----------------------------------------------------------------dio网络请求
+import 'package:dio/dio.dart';
+
+void getIpAddress() async{
+    try{
+      final url = 'https://httpbin.org/ip';
+      // 请求
+      Response response = await Dio().get(url);
+      // 获取数据
+      String ip = response.data['origin'];
+      print(ip);
+    }catch (e){
+      print(e);
+    }
+}
+----------------------------------------------------------------flutter_swiper轮播
+import 'package:flutter_swiper/flutter_swiper.dart';
+
+
+itemCount: 2,  // 数量
+itemBuilder: (context, index){
+    return Image.asset(
+        imgs[index],  // 
+        fit: BoxFit.cover,  // 填充方式
+    );
+}
+
+pagination: SwiperPagination(),  // 轮播图指示点
+control: SwiperControl(),  // 左右肩头导航
+viewportFraction: 0.7,  // 展示两边图片
+scale: 0.7,  // 缩小两边图
+itemWidth: 200,  // 宽
+itemHeight: 200,  // 高
+layout: SwiperLayout.STACK,  // 显示方式 需要自定 itemWidth
+layout: SwiperLayout.TINDER,  // 显示方式 需要自定 itemWidth itemHeight
+
+----------------------------------------------------------------shared_preferences持久化存储
+import 'package:shared_preferences/shared_preferences.dart';
+
+
+_incrementCounter() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    // 获取数据
+    int counter = (prefs.getInt('counter') ?? 0) + 1;
+    // 设置数据
+    await prefs.setInt('counter', counter);
+}
+
+// 获取数据
+String content = prefs.getString('hi') ?? '';
+// 移除
+await prefs.remove('counter');  // 变量
+// 设置字符串
+await prefs.setString('hi', 'Hello World');
+// 清空
+await prefs.clear();  
+
+
+----------------------------------------------------------------provider状态管理
+状态管理
+
+import 'package:provider/provider.dart';
+
+// 1.创建数据模型
+class LikesModel extends ChangeNotifier {
+  int _counter = 0;
+  int get counter => _counter;
+  incrementCounter() {
+    // 累加
+    _counter++;
+    // 通过UI更新
+    notifyListeners();
+  }
+}
+
+
+2.注册数据模型
+ChangeNotifierProvider(
+    // 2.注册数据模型
+    create: (BuildContext context) => new LikesModel(),
+    child: ,
+)
+
+
+// 3.在子组件中使用数据模型
+Text('${context.watch<LikesModel>().counter}'),
+TextButton(
+    // 3.在子组件中使用数据模型
+    onPressed: Provider.of<LikesModel>(context).incrementCounter,
+    child: Icon(Icons.ten_k_rounded),
+),
+
+----------------------------------------------------------------easy_localization国际化
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await EasyLocalization.ensureInitialized();
+  runApp(
+    EasyLocalization(
+        supportedLocales: [Locale('en'), Locale('zh')],
+        path:
+            'assets/translations', // <-- change the path of the translation files
+        fallbackLocale: Locale('zh'), // 不支持语言 返回此语言
+        child: MyApp()),
+  );
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      localizationsDelegates: context.localizationDelegates,
+      supportedLocales: context.supportedLocales,
+      locale: context.locale,
+      home: MyHomePage()
+    );
+  }
+}
+
+pubspec.yaml
+flutter:
+  assets:
+    - assets/translations/
+
+assets
+└── translations
+    ├── en.json
+    └── en-US.json 
+
+
+
+
+
+

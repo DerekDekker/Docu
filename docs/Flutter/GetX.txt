@@ -1,0 +1,139 @@
+
+----------------------------------------------------------------主题
+void main() {
+  runApp(GetMaterialApp(
+    home: Home(),
+    
+    // 动画
+    defaultTransition: Transition.fadeIn,
+
+    // 命名理由
+    getPages: [
+        GetPage(name: '/', page: () => Home(), transition: Transition.zoom),
+        GetPage(name: '/other', page: () => Other(), transition: Transition.zoom)
+    ],
+
+  ));
+}
+
+----------------------------------------------------------------状态管理
+
+===========================
+// 监听变化
+Obx(() => Text(
+    controller.count.string,
+))
+
+===========================
+// 监听变化  使用的变量更新才会局部更新
+GetX<GetxController类>(
+    builder: (controller) {
+        print('${controller.count}');  // 执行
+        return Text('${controller.count}');  // 返回
+    },
+),
+
+
+===========================主动更新
+优点，减小消耗(差距不大，或许吧)
+
+class 名称 extends GetxController {
+  // 不需要.obs
+  var count = 0;
+
+
+  void increment6() {
+    count++;
+    // 进行更新
+    update();
+    或
+    update(['text2', 'text1']);  // 精确更新 填写GetBuilderID
+  }
+}
+
+组件
+GetBuilder<GetxController类>(
+    id: 'text1',  // 可选
+    init: Controller(),
+    builder: (_) => Text("${_.count}")
+)
+
+
+----------------------------------------------------------------路由
+Get.back();  // 后退
+Get.to(组件());  // 加载
+Get.off(组件())  // 进入后无法回退
+Get.offAll(组件())  // 进入并清除之前全部路由
+    transition: Transition.zoom  // 动画效果
+    arguments: 值  // 传参数 列表 字典 字符串 组件 类等
+
+Get.toNamed('/other');  // 命名路由
+
+----------------------------------------------------------------类
+// 实例化
+final 名称 = Get.put(类());  // 方法内
+    bool permanent = false    ture永久保留  false销毁
+    tag: ''  // 不同实例 用来区分
+
+// 实例化
+final 名称 = Get.put(类());  // 方法内
+
+// 查找另一个使用的控制器并重定向。
+final 类 名称 = Get.find();  // 属性内
+
+
+实例化.属性  // 也可以 实例化.属性.value
+实例化.方法
+
+Get.arguments  // 接收参数  方法内
+
+----------------------------------------------------------------GetxController类
+import 'package:get/get.dart';
+
+class 名称 extends GetxController {
+  var count = 0.obs;  // 属性 obs 监听
+  increment() => count++;  // 方法
+  
+  @override
+  void onInit() {
+    super.onInit();
+    // 初始化代码放到这里
+  }
+}
+
+// 也可以类实例化的时候 类.obs 类内的属性会全部转为obs属性
+final 名称 = 类名().obs
+
+----------------------------------------------------------------监听变量
+class 名称 extends GetxController {
+
+  @override
+  void onInit() {
+    super.onInit();
+    // 变量变化 执行
+    ever(count, (callback) {
+      print('监听变量$callback');
+    });
+    // 只执行一次
+    once(count3, (callback) {
+      print('监听变量3$callback');
+    }); // 监听变量
+    // 停止点击后执行 自设时间
+    debounce(count4, (callback) {
+      print('监听变量4$callback');
+    }, time: Duration(seconds: 1));
+    // 点击时每秒执行间隔 自设时间
+    interval(count5, (callback) {
+      print('监听变量5$callback');
+    }, time: Duration(seconds: 1));
+  }
+}
+
+
+----------------------------------------------------------------
+
+
+
+
+
+
