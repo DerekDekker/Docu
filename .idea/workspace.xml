@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cec12044-66c9-4127-8657-6144d5c5cbe8" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/Flutter/Dart.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Flutter/基础.md" afterDir="false" />
+    <list default="true" id="cec12044-66c9-4127-8657-6144d5c5cbe8" name="变更" comment="test">
+      <change afterPath="$PROJECT_DIR$/docs/Django/ORM.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.py" beforeDir="false" afterPath="$PROJECT_DIR$/01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Django/Django_REST_framework/rest.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Django/Django_REST_framework/rest.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Django/Django_REST_framework/serializers.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Django/Django_REST_framework/serializers.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Django/admin.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Django/admin.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Django/model.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Django/model.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Django/settings.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Django/settings.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Django/templates.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Django/templates.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Django/urls.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Django/urls.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Django/views.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Django/views.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Django/扩展.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Django/扩展.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Django/框架.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Django/框架.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Flutter/Dart.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Flutter/Dart.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mkdocs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mkdocs.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +27,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
@@ -83,7 +95,16 @@
       <option name="presentableId" value="Default" />
       <updated>1659843753035</updated>
       <workItem from="1659843754590" duration="5453000" />
-      <workItem from="1660282840561" duration="6955000" />
+      <workItem from="1660282840561" duration="7134000" />
+      <workItem from="1660305323187" duration="7000" />
+      <workItem from="1660311682584" duration="734000" />
+      <workItem from="1660364366030" duration="39000" />
+      <workItem from="1660364627410" duration="229000" />
+      <workItem from="1660364913050" duration="2000" />
+      <workItem from="1660462241242" duration="2998000" />
+      <workItem from="1660465433523" duration="1333000" />
+      <workItem from="1660467344004" duration="292000" />
+      <workItem from="1660471634688" duration="1004000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1659843823314</created>
@@ -99,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659848842518</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="test">
+      <created>1660289813741</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1660289813741</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +149,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Docu$01.coverage" NAME="01 覆盖结果" MODIFIED="1659848520380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Docu$01.coverage" NAME="01 覆盖结果" MODIFIED="1660462768182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

@@ -15,16 +15,29 @@ main(){
 
 ### 数据类型
 ```Dart
-int 整型    double 小数    String 字符串
+int 整型    double 小数    
+
+String 字符串
 
 [值, 值, 值] 列表    {'名城': 值,'名城': 值}  字典
 
 ```
 
+
+???abstract "转换"
+
+    int.parse('1'); // String -> int
+
+    double.parse('1.1');  // String -> double
+
+    1.toString();  // int -> String
+
+    3.14159.toStringAsFixed(2);  // double -> String
+
 ### 变量定义
 ```Dart
 
-var 名称;    声明变量
+var 名称;    声明变量 不需要指定变量类型
 
 var 名称 = 'Voyager I';  不需要给定类型
 
@@ -41,11 +54,28 @@ int? a = 1;  可空
 
 ### 运算符
 
+```dart
++ -  加减法	
+++ 加等于
+-- 减等于
+== !=  相等判断	
+&&  逻辑与	
+||  逻辑或	
+??  空判断
+
+>    <    >=	<=	
+
+	
+
+```
+
 
 ### 赋值
 ```Dart
 
 变量 ??= 3;  只在空的情况下赋值
+
++=
 
 ```
 
@@ -75,42 +105,89 @@ int? a = 1;  可空
 !!! abstract "备注"
 
     `print();`    打印
+    
+    as
+
+    is  也可以是 is!	相反
 
 ### 流程控制语句
 
-```Dart
-判断
-if (year >= 2001) {
-  print('21st century');
-} else if (year >= 1901) {
-  print('20th century');
-}
+???abstract "if"
 
-遍历循环
-for (final object in flybyObjects) {
-  print(object);
-}
+    ```Dart
+    判断
+    if (year >= 2001) {
+      print('21st century');
+    } else if (year >= 1901) {
+      print('20th century');
+    }
+    
+    遍历循环
+    for (final object in flybyObjects) {
+      print(object);
+    }
+    
+    循环
+    for (int month = 1; month <= 12; month++) {
+      print(month);
+    }
+    
+    循环
+    while (year < 2016) {
+      year += 1;
+    }
+    ```
 
-循环
-for (int month = 1; month <= 12; month++) {
-  print(month);
-}
+???abstract "switch"
 
-循环
-while (year < 2016) {
-  year += 1;
-}
-```
-
+    ```dart
+    
+    var command = 'OPEN';
+    switch (command) {
+      case 'CLOSED':
+        executeClosed();
+        break;
+      case 'PENDING':
+        executePending();
+        break;
+      case 'APPROVED':
+        executeApproved();
+        break;
+      case 'DENIED':
+        executeDenied();
+        break;
+      case 'OPEN':
+        executeOpen();
+        break;
+      default:
+        executeUnknown();
+    }
+    ```
 ---
 ## 数据类型
 ```Dart
 
-变量.toInt()  转整形
-
-变量.toString()  转字符串
-
 变量.length  长度
+
+```
+
+### 字符串
+
+多行变量
+
+
+```dart
+s1 = '''
+你可以像这样创建多行字符串。
+''';
+```
+
+
+不对转义符做处理
+
+```dart
+
+s = r'In a raw string, not even \n gets special treatment.';
 
 ```
 
@@ -124,7 +201,63 @@ while (year < 2016) {
 列表.remove(值)  删除
 
 列表.clear(值)  清空
+
+[0, ...列表]  合并列表 ...? 可为空列表
 ```
+
+### 集合
+
+创建集合
+
+`var halogens = {'fluorine', 'chlorine', 'bromine', 'iodine', 'astatine'};`
+
+```dart
+
+[0, ...集合]  合并集合 ...? 可为空列表
+
+`集合.add('fluorine');`  添加
+
+`集合.length`  长度
+
+```
+
+### Maps
+
+???abstract "创建"
+    
+    ```dart
+    var gifts = {
+      // Key:    Value
+      'first': 'partridge',
+      'second': 'turtledoves',
+      'fifth': 'golden rings'
+    };
+
+    var nobleGases = {
+      2: 'helium',
+      10: 'neon',
+      18: 'argon',
+    };
+
+    var gifts = Map<String, String>();
+    gifts['first'] = 'partridge';
+    gifts['second'] = 'turtledoves';
+    gifts['fifth'] = 'golden rings';
+    
+    var nobleGases = Map<int, String>();
+    nobleGases[2] = 'helium';
+    nobleGases[10] = 'neon';
+    nobleGases[18] = 'argon';
+    ```
+
+```dart
+
+Maps[key] = 值;  新增
+
+Maps.length  长度
+
+```
+
 
 ### Iterable
 
@@ -151,17 +284,26 @@ iterable.last;  访问最后一个元素
 ```Dart
 
 函数
-void 名称(参数, {可选参数, 可选参数}){
+void 名称(int 参数, String 参数 = 默认值, {可选参数, 可选参数}){
+    // 代码
+}
+
+名称(参数, {可选参数, 可选参数}){
+    // 代码
+}
+
+int 名称(参数, {可选参数, 可选参数}){
     // 代码
 }
 ```
 
-```Dart
-函数
-名称(参数, {可选参数, 可选参数}){
-    // 代码
-}
-```
+
+??? note "备注"
+
+    void 不会返回值
+
+    int 返回的类型
+
 
 ```Dart
 // 可选参数
@@ -176,14 +318,6 @@ int sumUpToFive(int a, [int? b, int? c, int? d, int? e]) {
 }
 
 ```
-
-```Dart
-指定类型
-int fibonacci(int n) {
-  return n;
-}
-
-var result = fibonacci(20);
 
 ```
 

@@ -116,6 +116,7 @@ nav:
       - templates: Django/templates.md
       - urls: Django/urls.md
       - 扩展: Django/扩展.md
+      - ORM: Django/ORM.md
       - Django REST framework:
           - rest: Django/Django_REST_framework/rest.md
           - serializers: Django/Django_REST_framework/serializers.md
