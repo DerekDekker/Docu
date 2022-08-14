@@ -53,7 +53,7 @@ markdown_extensions:
 nav:
   - index.md
   - Python:
-    - 基础: Python/Dart.md
+    - 基础: Python/基础.md
     - 数据类型: Python/数据类型.md
     - open: Python/open.md
     - os: Python/os.md
@@ -121,14 +121,10 @@ nav:
           - rest: Django/Django_REST_framework/rest.md
           - serializers: Django/Django_REST_framework/serializers.md
   - FastAPI:
-      - 基础: FastAPI/Dart.md
-      - 框架: FastAPI/框架.md
-      - 安全与认证: FastAPI/安全与认证.md
-      - 数据类型: FastAPI/数据类型.md
+      - 基础: FastAPI/基础.md
       - 依赖: FastAPI/依赖.md
-      - database: FastAPI/database.md
+      - 安全与认证: FastAPI/安全与认证.md
       - HTML: FastAPI/HTML.md
-      - model: FastAPI/model.md
       - pydantic: FastAPI/pydantic.md
       - 扩展: FastAPI/扩展.md
   - SQLModel:
