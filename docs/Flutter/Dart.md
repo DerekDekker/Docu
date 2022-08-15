@@ -1,5 +1,7 @@
 # Dart
 
+[官网](https://dart.cn/)
+
 ---
 ## 主入口
 
@@ -336,6 +338,9 @@ void 名称() => 表达式
 实例化
 
 类名 名称 = 类()
+
+var 名称 = 类()
+
 ```
 
 ```Dart
@@ -349,8 +354,9 @@ class 名称 {
   int? get launchYear => launchDate?.year;
   
   // 构造方法
-  类名(this.name, this.launchDate) {
+  类名(this.name, this.launchDate, string a) {
     // 初始化代码
+    this.a = a
   }
 
   // 构造方法接收的参数

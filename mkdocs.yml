@@ -175,7 +175,10 @@ nav:
       - Two-factor authentication: 密码学/Two-factor authentication.md
   - Flutter:
       - Dart: Flutter/Dart.md
-      - pass: home/index.md
+      - 基础: Flutter/基础.md
+      - Android组件: Flutter/Android组件.md
+      - 布局: Flutter/布局.md
+      - 状态: Flutter/状态.md
   - 中间件:
       - Nginx:
           - 框架: Nginx/框架.md

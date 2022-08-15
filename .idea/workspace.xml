@@ -2,23 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cec12044-66c9-4127-8657-6144d5c5cbe8" name="变更" comment="test">
-      <change afterPath="$PROJECT_DIR$/docs/SQLModel/model.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/SQLModel/基础.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Flutter/Android组件.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Flutter/布局.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Flutter/状态.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/FastAPI/依赖.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/FastAPI/依赖.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/FastAPI/安全与认证.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/FastAPI/安全与认证.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/FastAPI/扩展.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/FastAPI/扩展.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/SQLModel/FaseAPI.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/SQLModel/database.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/SQLModel/model.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/SQLModel/代码结构/app.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/SQLModel/代码结构/database.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/SQLModel/代码结构/database.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/SQLModel/代码结构/hero_model.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/SQLModel/代码结构/team_model.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/SQLModel/增.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/SQLModel/查.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/SQLModel/框架.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.py" beforeDir="false" afterPath="$PROJECT_DIR$/01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Flutter/Dart.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Flutter/Dart.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Flutter/命令.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Flutter/基础.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Flutter/基础.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Flutter/基础.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Flutter/框架.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mkdocs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mkdocs.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +101,11 @@
       <workItem from="1660465433523" duration="1333000" />
       <workItem from="1660467344004" duration="292000" />
       <workItem from="1660471634688" duration="5794000" />
-      <workItem from="1660524521253" duration="5275000" />
+      <workItem from="1660524521253" duration="5978000" />
+      <workItem from="1660547448800" duration="1322000" />
+      <workItem from="1660549348540" duration="211000" />
+      <workItem from="1660550983406" duration="7938000" />
+      <workItem from="1660563205156" duration="5000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1659843823314</created>
@@ -152,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660477417568</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="test">
+      <created>1660530487267</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1660530487267</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
