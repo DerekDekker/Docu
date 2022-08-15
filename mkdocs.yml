@@ -128,7 +128,8 @@ nav:
       - pydantic: FastAPI/pydantic.md
       - 扩展: FastAPI/扩展.md
   - SQLModel:
-      - 代码: home/index.md
+      - 基础: SQLModel/基础.md
+      - model: SQLModel/model.md
   - PySide:
       - 代码: home/index.md
   - Linux:
