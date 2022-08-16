@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cec12044-66c9-4127-8657-6144d5c5cbe8" name="变更" comment="test">
-      <change afterPath="$PROJECT_DIR$/docs/Flutter/Android组件.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Flutter/布局.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Flutter/状态.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Flutter/常用库.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Docu.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Docu.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01.py" beforeDir="false" afterPath="$PROJECT_DIR$/01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Flutter/Dart.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Flutter/Dart.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Flutter/命令.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Flutter/Android组件.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Flutter/Android组件.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/Flutter/基础.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Flutter/基础.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Flutter/基础.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Flutter/框架.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Flutter/状态.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Flutter/状态.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mkdocs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mkdocs.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +43,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -106,6 +104,9 @@
       <workItem from="1660549348540" duration="211000" />
       <workItem from="1660550983406" duration="7938000" />
       <workItem from="1660563205156" duration="5000" />
+      <workItem from="1660566851835" duration="95000" />
+      <workItem from="1660575760315" duration="979000" />
+      <workItem from="1660653294586" duration="2088000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1659843823314</created>
@@ -156,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660530487267</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="test">
+      <created>1660566896927</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1660566896927</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -53,10 +53,11 @@ AppBar(
 ---
 ## ListView.builder
 
-| 参数           | 备注  |
-|--------------|-----|
+| 参数           | 备注 |
+|--------------|--|
 | padding      | 内边距 |
-| itemBuilder  | 组件  |
+| itemBuilder  | 组件 |
+| itemCount  | 放入组件的数量 |
 
 
 ???abstract "代码"
