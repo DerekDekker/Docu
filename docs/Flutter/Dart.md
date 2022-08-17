@@ -198,6 +198,8 @@ s = r'In a raw string, not even \n gets special treatment.';
 ```Dart
 变量[1]
 
+列表.add(值)  添加
+
 列表.insert(1, 值)  插入
 
 列表.remove(值)  删除

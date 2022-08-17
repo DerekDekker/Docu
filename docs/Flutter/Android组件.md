@@ -34,10 +34,40 @@ Scaffold 它提供了默认的导航栏、标题和包含主屏幕 widget
 ```dart
 Scaffold(
     appBar: AppBar()  // 导航
+    drawer: Drawer()  // 左侧抽屉
     body: 主体 
     floatingActionButton: FloatingActionButton()  // 右下角按钮 允许放其他组件
 ),
 ```
+
+---
+### Drawer
+
+左侧抽屉
+
+???abstract "演示"
+
+    ```dart
+    Drawer(
+      // Add a ListView to the drawer. This ensures the user can scroll
+      // through the options in the drawer if there isn't enough vertical
+      // space to fit everything.
+      child: ListView(
+        // Important: Remove any padding from the ListView.
+        padding: EdgeInsets.zero,
+        children: [
+          const DrawerHeader(
+            decoration: BoxDecoration(
+              color: Colors.blue,
+            ),
+            child: Text('Drawer Header'),
+          ),
+          Text('1'),
+          Text('2')
+        ],
+      ),
+    ),
+    ```
 
 ---
 ## AppBar
@@ -119,4 +149,16 @@ Divider()
 ### ButtonStyle
 
 按钮样式
+
+---
+## 加载效果
+
+### CircularProgressIndicator
+
+```dart
+CircularProgressIndicator()
+```
+
+---
+
 
