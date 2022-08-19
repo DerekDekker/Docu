@@ -10,6 +10,7 @@ material 风格组件
 
 ```dart
 MaterialApp(
+  debugShowCheckedModeBanner: false,  // Debug 关闭
   title: 'Welcome to Flutter',
   theme: ThemeData()  // 主题
   home: Scaffold()  // 主体
@@ -72,45 +73,17 @@ Scaffold(
 ---
 ## AppBar
 
-耳朵
+顶部
 
 ```dart
 AppBar(
-  title: Text()  // 标题
+    leading: const IconButton()  // 左侧
+    title: Text()  // 标题 中间位置
+    actions: [IconButton(), IconButton()],  // 右侧
+    elevation: 0.0,  // 阴影
+    centerTitle: true,  // 居中
 ),
 ```
-
----
-## ListView.builder
-
-| 参数           | 备注 |
-|--------------|--|
-| padding      | 内边距 |
-| itemBuilder  | 组件 |
-| itemCount  | 放入组件的数量 |
-
-
-???abstract "代码"
-
-    ```dart
-    
-    ListView.builder(
-      padding: const EdgeInsets.all(16.0),
-      itemBuilder: /*1*/ (context, i) {
-        if (i >= _suggestions.length) {
-          // 滑动到底时执行
-        }
-        
-        // 返回的组件
-        return Text(
-            _suggestions[i].asPascalCase,
-          );
-      },
-    )
-    
-    ```
-
----
 ## Divider
 
 分割线
@@ -142,6 +115,10 @@ Divider()
 
 文本按钮
 
+### IconButton
+
+图标按钮
+
 ### FloatingActionButton
 
 悬浮按钮
@@ -160,5 +137,69 @@ CircularProgressIndicator()
 ```
 
 ---
+## Text
+
+```dart
+Text(
+    '内容',
+    style: TextStyle(),  // 样式
+    textDirection: TextDirection.ltr,  // 文本方向
+    textAlign: TextAlign.center,  文本对齐
+    maxLines: 3,  // 行数
+    overflow: TextOverflow.ellipsis,  // 溢出方式
+)
+```
+
+---
+## CircleAvatar
+
+头像
+
+???abstract "代码"
+
+    ```dart
+    CircleAvatar(
+      child: Text('我'),
+      backgroundImage: AssetImage('assets/image/01.jpeg'),  // 图片
+      backgroundColor: Colors.blueGrey,  // 颜色
+      radius: 20,  // 大小
+    )
+    ```
+
+---
+## Image.asset
+
+显示本地图片
+
+```dart
+Image.asset('assets/image/01.jpeg', width: 50)
+```
+
+???abstract "参数"
+
+    fit  显示方式
+    
+    `fit: BoxFit.cover`  覆盖
 
 
+
+---
+## Icon
+
+图标
+
+```dart
+Icon(Icons.图标名称, size: 30,)
+```
+
+---
+## Chip
+
+标签
+
+```dart
+Chip(
+  label: Text('茶花'),
+  avatar: Icon(Icons.add_location),  // 图标或头像
+)
+```

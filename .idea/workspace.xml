@@ -2,10 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cec12044-66c9-4127-8657-6144d5c5cbe8" name="变更" comment="test">
+      <change afterPath="$PROJECT_DIR$/docs/Flutter/扩展.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Flutter/样式组件.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/SQLModel/增删改.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/SQLModel/查询.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/Flutter/Android组件.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Flutter/Android组件.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Flutter/Dart.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Flutter/Dart.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Flutter/常用库.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Flutter/常用库.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Flutter/GetX.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Flutter/ios设计.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Flutter/不常用.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Flutter/基础.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Flutter/基础.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Flutter/布局.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Flutter/布局.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Flutter/扩展.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Flutter/状态.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Flutter/状态.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Flutter/第三方包.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Flutter/组件.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Flutter/组件_布局.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mkdocs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mkdocs.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,6 +126,12 @@
       <workItem from="1660653294586" duration="2106000" />
       <workItem from="1660738987420" duration="2125000" />
       <workItem from="1660744989154" duration="2385000" />
+      <workItem from="1660747597504" duration="498000" />
+      <workItem from="1660799565486" duration="1588000" />
+      <workItem from="1660909136159" duration="3736000" />
+      <workItem from="1660915219415" duration="599000" />
+      <workItem from="1660917440479" duration="4743000" />
+      <workItem from="1660923518554" duration="7775000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1659843823314</created>
@@ -177,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660656156497</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="test">
+      <created>1660747601423</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1660747601423</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
