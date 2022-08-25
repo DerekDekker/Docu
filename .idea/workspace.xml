@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cec12044-66c9-4127-8657-6144d5c5cbe8" name="变更" comment="test" />
+    <list default="true" id="cec12044-66c9-4127-8657-6144d5c5cbe8" name="变更" comment="test">
+      <change afterPath="$PROJECT_DIR$/docs/Linux/权限与用户.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Linux/AT指令.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Linux/Arch.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Linux/命令.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Linux/命令.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Linux/知识.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Linux/知识.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mkdocs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mkdocs.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -120,7 +128,7 @@
       <workItem from="1661142394912" duration="2844000" />
       <workItem from="1661160857855" duration="1363000" />
       <workItem from="1661411587375" duration="409000" />
-      <workItem from="1661412075448" duration="11551000" />
+      <workItem from="1661412075448" duration="13931000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1659843823314</created>
@@ -206,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661436360293</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="test">
+      <created>1661436860018</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1661436860018</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
