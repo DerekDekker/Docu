@@ -95,12 +95,12 @@ Divider()
 ---
 ## 按钮
 
-| 参数          | 描述                 |
-|-------------|--------------------|
-| child       | 组件 一般放Text()       |
-| onPressed   | 点击                 |
-| onLongPress | 长按                 |
-| style       | 样式 放ButtonStyle()  |
+| 参数          | 描述                |
+|-------------|-------------------|
+| child       | 组件 一般放Text()      |
+| onPressed   | 点击                |
+| onLongPress | 长按                |
+| style       | 样式 放ButtonStyle() |
 
 
 ### ElevatedButton
@@ -115,17 +115,43 @@ Divider()
 
 文本按钮
 
-### IconButton
 
-图标按钮
-
-### FloatingActionButton
-
-悬浮按钮
 
 ### ButtonStyle
 
 按钮样式
+
+---
+### IconButton
+
+图标按钮
+
+
+| 参数       | 描述       |
+|----------|----------|
+| tooltip  | 长安提示文本   |
+
+
+```dart
+IconButton(
+  onPressed: () {  },
+  icon: Icon(Icons.access_alarms_rounded),
+),
+```
+
+---
+## FloatingActionButton
+
+悬浮按钮
+
+
+| 参数          | 描述            |
+|-------------|---------------|
+| child       | 组件 一般放Text()  |
+| tooltip       | 长安提示文本        |
+| elevation       | 阴影            |
+
+
 
 ---
 ## 加载效果
@@ -167,13 +193,14 @@ Text(
     ```
 
 ---
-## Image.asset
+## 图片
 
-显示本地图片
 
-```dart
-Image.asset('assets/image/01.jpeg', width: 50)
-```
+| 参数     | 描述  |
+|--------|-----|
+| width  | 宽度  |
+| height | 高度  |
+
 
 ???abstract "参数"
 
@@ -181,7 +208,21 @@ Image.asset('assets/image/01.jpeg', width: 50)
     
     `fit: BoxFit.cover`  覆盖
 
+### Image.asset
 
+显示本地图片
+
+```dart
+Image.asset('assets/image/01.jpeg')
+```
+
+### Image.network
+
+网络图片
+
+```dart
+Image.network('URL')
+```
 
 ---
 ## Icon
@@ -201,5 +242,60 @@ Icon(Icons.图标名称, size: 30,)
 Chip(
   label: Text('茶花'),
   avatar: Icon(Icons.add_location),  // 图标或头像
+)
+```
+
+---
+## AlertDialog
+
+提示框
+
+```dart
+AlertDialog(
+  title: Text('标题'),
+  content: Text('提示内容'),
+    actions: [  
+      // 一般放按钮
+    ]
+)
+```
+
+---
+## TextField
+
+输入框
+
+
+| 参数     | 描述      |
+|--------|---------|
+| autofocus  | 是否 获取焦点 |
+| keyboardType | 键盘类型    |
+| maxLength | 最多输入    |
+| obscureText | 是否 密码形式 |
+| maxLines | 最多几行    |
+| onChanged | 输入事件    |
+| decoration | 样式      |
+
+
+```dart title="onChanged"
+onChanged: (value) {
+    // 执行代码
+},
+```
+
+```dart title="decoration"
+InputDecoration(
+    prefix: Icon(Icons.mobile_screen_share),  // 图标
+    label: Text('手机号'),  // 标题
+    hintText: '请输入手机号',  // 提示
+    // 获取焦点 样式
+    focusedBorder: UnderlineInputBorder(
+        borderSide: BorderSide(color: Colors.lightGreen),
+    ),
+    // 未获取焦点 样式
+    enabledBorder: UnderlineInputBorder(
+        borderSide: BorderSide(color: Colors.deepOrangeAccent),
+    ),
+    hintStyle: TextStyle()  // 提示文本样式
 )
 ```

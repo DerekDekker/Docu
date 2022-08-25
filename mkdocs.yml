@@ -131,6 +131,8 @@ nav:
       - 基础: SQLModel/基础.md
       - model: SQLModel/model.md
       - 增删改: SQLModel/增删改.md
+      - 查询: SQLModel/查询.md
+      - SQLModel与FaseAPI: SQLModel/SQLModel与FaseAPI.md
   - PySide:
       - 代码: home/index.md
   - Linux:
@@ -178,10 +180,11 @@ nav:
       - Dart: Flutter/Dart.md
       - 基础: Flutter/基础.md
       - Android组件: Flutter/Android组件.md
-      - 样式组件: Flutter/样式组件.md
       - 布局: Flutter/布局.md
+      - 样式组件: Flutter/样式组件.md
       - 常用库: Flutter/常用库.md
       - 状态: Flutter/状态.md
+      - 路由: Flutter/路由.md
       - 扩展: Flutter/扩展.md
   - 中间件:
       - Nginx:
