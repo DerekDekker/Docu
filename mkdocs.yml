@@ -141,8 +141,7 @@ nav:
       - 工具: Linux/工具.md
       - 知识: Linux/知识.md
       - 功能: Linux/功能.md
-      - AT指令: Linux/AT指令.md
-      - Arch Linux: Linux/Arch.md
+      - shell: Linux/shell.md
   - 数据库:
     - MySql:
         - SQL: MySql/SQL.md

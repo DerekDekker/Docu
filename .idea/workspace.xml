@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cec12044-66c9-4127-8657-6144d5c5cbe8" name="变更" comment="test">
+      <change afterPath="$PROJECT_DIR$/docs/Linux/shell.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Flutter/基础.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Flutter/基础.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Flutter/布局.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Flutter/布局.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/Flutter/样式组件.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Flutter/样式组件.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Flutter/状态.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Flutter/状态.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mkdocs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mkdocs.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,18 +44,21 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/assets/image" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs/assets/image" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/docs/Flutter" />
       <recent name="$PROJECT_DIR$/docs/Dart" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Shell Script.01.sh">
     <configuration name="01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Docu" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -79,8 +81,24 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="01.sh" type="ShConfigurationType" temporary="true">
+      <option name="SCRIPT_TEXT" value="" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$USER_HOME$/01.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$USER_HOME$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/zsh" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <option name="EXECUTE_SCRIPT_FILE" value="true" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Shell Script.01.sh" />
         <item itemvalue="Python.01" />
       </list>
     </recent_temporary>
@@ -130,7 +148,9 @@
       <workItem from="1661439482419" duration="56000" />
       <workItem from="1661451497945" duration="560000" />
       <workItem from="1661516563560" duration="19000" />
-      <workItem from="1661768219217" duration="5390000" />
+      <workItem from="1661768219217" duration="5598000" />
+      <workItem from="1661786257935" duration="2000" />
+      <workItem from="1661790021015" duration="6348000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1659843823314</created>
@@ -230,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661439247254</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="test">
+      <created>1661779269538</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1661779269538</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
