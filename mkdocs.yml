@@ -180,12 +180,14 @@ nav:
       - Dart: Flutter/Dart.md
       - 基础: Flutter/基础.md
       - Android组件: Flutter/Android组件.md
-      - 布局: Flutter/布局.md
+      - 布局组件: Flutter/布局组件.md
+      - 效果组件: Flutter/效果组件.md
       - 样式组件: Flutter/样式组件.md
       - 常用库: Flutter/常用库.md
       - 状态: Flutter/状态.md
       - 路由: Flutter/路由.md
       - 扩展: Flutter/扩展.md
+      - bloc: Flutter/bloc.md
   - 中间件:
       - Nginx:
           - 框架: Nginx/框架.md
