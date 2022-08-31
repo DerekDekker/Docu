@@ -137,10 +137,10 @@ nav:
       - 代码: home/index.md
   - Linux:
       - 命令: Linux/命令.md
+      - 系统工具: Linux/系统工具.md
+      - 第三方工具: Linux/第三方工具.md
       - 权限与用户: Linux/权限与用户.md
-      - 工具: Linux/工具.md
       - 知识: Linux/知识.md
-      - 功能: Linux/功能.md
       - shell: Linux/shell.md
   - 数据库:
     - MySql:

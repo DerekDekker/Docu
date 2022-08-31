@@ -12,6 +12,9 @@
 
 # 表达式要用``包裹
 ``
+
+# 获得前端输入 并赋值给变量
+read 变量名
 ```
 
 ```shell
@@ -33,12 +36,25 @@ $$
 # 后台运行的最后一个进程的ID号
 $!
 ```
+
 ```shell title="echo"
+echo Hello World !
+
+echo 'Hello World !'  # 原样输出
+
 echo "Hello World !"
+
+echo `date`  # 显示命令执行结果
 
 echo ${变量}
 
 echo $变量
+
+echo -e "OK! \n"  # 可以有转义符
+
+echo "It is a test" > 文件.txt  # 将文本覆盖到文件
+
+echo "It is a test" > 文件.txt  # 将文本追加到文件
 ```
 
 ```shell title="变量"
