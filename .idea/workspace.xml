@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cec12044-66c9-4127-8657-6144d5c5cbe8" name="变更" comment="test">
-      <change afterPath="$PROJECT_DIR$/docs/Flutter/bloc.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Flutter/效果组件.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01.py" beforeDir="false" afterPath="$PROJECT_DIR$/01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Flutter/布局.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Flutter/布局组件.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Flutter/常用库.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Flutter/常用库.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Flutter/样式组件.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Flutter/样式组件.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mkdocs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Flutter/Android组件.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Flutter/Android组件.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Flutter/布局组件.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Flutter/布局组件.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +154,8 @@
       <workItem from="1661865786085" duration="1123000" />
       <workItem from="1661867043872" duration="4259000" />
       <workItem from="1661874496642" duration="1429000" />
-      <workItem from="1661917288979" duration="4114000" />
+      <workItem from="1661917288979" duration="4133000" />
+      <workItem from="1661936475273" duration="4135000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1659843823314</created>
@@ -273,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661796457413</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="test">
+      <created>1661924927681</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1661924927681</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
