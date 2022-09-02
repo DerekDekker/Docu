@@ -301,8 +301,18 @@ InputDecoration(
 ```
 
 ---
-## placeholder
+## Placeholder
 
 占位 代表还未实现
 
+---
+## Divider
+
+分割线
+
+
+| 参数        | 描述  |
+|-----------|-----|
+| thickness | 厚度  |
+| color     | 颜色  |
 

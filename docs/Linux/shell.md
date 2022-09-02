@@ -15,8 +15,70 @@
 
 # 获得前端输入 并赋值给变量
 read 变量名
+
+# 输出
+printf "Hello, Shell\n"
+
+# 检测条件是否成立
+test
+
 ```
 
+```shell
+if condition1
+then
+    command1
+elif condition2 
+then 
+    command2
+else
+    commandN
+fi
+```
+
+```shell
+for loop in 1 2 3 4 5
+do
+    echo "The value is: $loop"
+done
+```
+
+```shell
+int=1
+while(( $int<=5 ))
+do
+    echo $int
+    let "int++"
+done
+```
+
+```shell
+echo '输入 1 到 4 之间的数字:'
+echo '你输入的数字为:'
+read aNum
+case $aNum in
+    1)  echo '你选择了 1'
+    ;;
+    2)  echo '你选择了 2'
+    ;;
+    3)  echo '你选择了 3'
+    ;;
+    4)  echo '你选择了 4'
+    ;;
+    *)  echo '你没有输入 1 到 4 之间的数字'
+    ;;
+esac
+```
+
+```shell
+# 跳出循环
+break
+
+
+# 跳出当前循环
+continue
+
+```
 ```shell
 # 获取参数 可以 $0 $1 $2 以此类推
 $0
@@ -197,4 +259,27 @@ val=`expr $a + $b`
 | -s | 	检测文件是否为空（文件大小是否大于0），不为空返回 true | [ -s $file ] 返回 true |
 | -e | 	检测文件（包括目录）是否存在 | [ -e $file ] 返回 true |
 
+---
+## 函数
 
+```shell
+demoFun(){
+    echo "这是我的第一个 shell 函数!"
+}
+echo "-----函数开始执行-----"
+demoFun
+echo "-----函数执行完毕-----"
+```
+
+```shell
+funWithParam(){
+    echo "第一个参数为 $1 !"
+    echo "第二个参数为 $2 !"
+    echo "第十个参数为 $10 !"
+    echo "第十个参数为 ${10} !"
+    echo "第十一个参数为 ${11} !"
+    echo "参数总数有 $# 个!"
+    echo "作为一个字符串输出所有参数 $* !"
+}
+funWithParam 1 2 3 4 5 6 7 8 9 34 73
+```
