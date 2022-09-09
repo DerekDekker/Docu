@@ -127,6 +127,7 @@ nav:
       - HTML: FastAPI/HTML.md
       - pydantic: FastAPI/pydantic.md
       - 扩展: FastAPI/扩展.md
+      - 常用库: FastAPI/常用库.md
   - SQLModel:
       - 基础: SQLModel/基础.md
       - model: SQLModel/model.md
@@ -135,6 +136,18 @@ nav:
       - SQLModel与FaseAPI: SQLModel/SQLModel与FaseAPI.md
   - PySide:
       - 代码: home/index.md
+  - Flutter:
+      - Dart: Flutter/Dart.md
+      - 基础: Flutter/基础.md
+      - Android组件: Flutter/Android组件.md
+      - 布局组件: Flutter/布局组件.md
+      - 效果组件: Flutter/效果组件.md
+      - 样式组件: Flutter/样式组件.md
+      - 常用库: Flutter/常用库.md
+      - 状态: Flutter/状态.md
+      - 路由: Flutter/路由.md
+      - 扩展: Flutter/扩展.md
+      - bloc: Flutter/bloc.md
   - Linux:
       - 命令: Linux/命令.md
       - 系统工具: Linux/系统工具.md
@@ -168,7 +181,6 @@ nav:
           - 树莓派: 树莓派/树莓派.md
           - 命令: 树莓派/命令.md
           - GPIO: 树莓派/GPIO.md
-
   - 密码学:
       - 基础: 密码学/Dart.md
       - AES: 密码学/AES.md
@@ -176,18 +188,6 @@ nav:
       - Hashing: 密码学/Hashing.md
       - MAC: 密码学/MAC.md
       - Two-factor authentication: 密码学/Two-factor authentication.md
-  - Flutter:
-      - Dart: Flutter/Dart.md
-      - 基础: Flutter/基础.md
-      - Android组件: Flutter/Android组件.md
-      - 布局组件: Flutter/布局组件.md
-      - 效果组件: Flutter/效果组件.md
-      - 样式组件: Flutter/样式组件.md
-      - 常用库: Flutter/常用库.md
-      - 状态: Flutter/状态.md
-      - 路由: Flutter/路由.md
-      - 扩展: Flutter/扩展.md
-      - bloc: Flutter/bloc.md
   - 中间件:
       - Nginx:
           - 框架: Nginx/框架.md
