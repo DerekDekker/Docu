@@ -202,4 +202,6 @@ nav:
         - Material for MkDocs: Material for MkDocs/代码.md
       - Tor:
           - 代码: home/index.md
+      - Final Cut Pro:
+          - 基础: Final Cut Pro/基础.md
 

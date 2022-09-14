@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cec12044-66c9-4127-8657-6144d5c5cbe8" name="变更" comment="test">
+      <change afterPath="$PROJECT_DIR$/docs/Final Cut Pro/基础.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Flutter/bloc.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Flutter/bloc.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +168,10 @@
       <workItem from="1662718218098" duration="5584000" />
       <workItem from="1662730479105" duration="1000" />
       <workItem from="1662738684471" duration="611000" />
-      <workItem from="1662785543646" duration="7865000" />
+      <workItem from="1662785543646" duration="8916000" />
+      <workItem from="1662995802331" duration="1000" />
+      <workItem from="1662999583183" duration="12000" />
+      <workItem from="1663139456226" duration="120000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1659843823314</created>
@@ -324,7 +327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662729999886</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="test">
+      <created>1662808000546</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1662808000546</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
