@@ -7,6 +7,14 @@
 这IDE里可以安装 bloc 插件, 方便开发.
 
 ---
+## 安装
+
+```yaml
+bloc: ^8.0.0
+flutter_bloc: ^8.0.0
+```
+
+---
 ## Cubit
 
 
@@ -164,4 +172,82 @@ class SimpleBlocObserver extends BlocObserver {
 ```dart
 // 实力化
 Bloc.observer = SimpleBlocObserver();
+```
+
+---
+## 项目结构
+
+### main.dart
+
+
+```dart title="main.dart"
+void main() {
+  Bloc.observer = CounterObserver();  // BlocObserver 观察者
+  runApp(const CounterApp());
+}
+```
+
+### app.dart
+
+里面有 MaterialApp 组件
+
+```dart title="app.dart"
+class App extends StatelessWidget {
+  const App({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Flutter Timer',
+      home: const CounterPage(),
+    );
+  }
+}
+```
+
+### counter_page.dart
+
+```dart
+class CounterPage extends StatelessWidget {
+  const CounterPage({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return BlocProvider(
+      create: (_) => CounterCubit(),  // Bloc
+      child: const CounterView(),  // 视图
+    );
+  }
+}
+```
+
+## flutter_bloc
+
+### BlocBuilder
+
+状态改变时刷新组件
+
+```dart
+BlocBuilder<CounterCubit类, int>(
+    builder: (context, count) => Text('$count'),
+),
+```
+
+### BlocProvider
+
+可以将一个bloc的单个实例提供给子树中的多个部件
+
+```dart
+BlocProvider(
+  create: (_) => BlocA(),  // Bloc累
+  child: ChildA(),  // 组件
+);
+```
+
+## 使用
+
+### 使用函数
+
+```dart
+context.read<CounterCubit类>().decrement方法()
 ```
