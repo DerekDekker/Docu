@@ -177,6 +177,29 @@ Bloc.observer = SimpleBlocObserver();
 ---
 ## 项目结构
 
+???abstract "目录结构"
+
+    main.dart  主文件
+
+    app.dart 
+
+    页面名
+
+    页面名/bloc
+
+    页面名/bloc/页面名_bloc.dart
+
+    页面名/bloc/页面名_event.dart
+
+    页面名/bloc/页面名_state.dart
+
+    页面名/view
+
+    页面名/view/页面名_page.dart
+
+    页面名/view/页面名_view.dart
+
+
 ### main.dart
 
 
@@ -221,6 +244,7 @@ class CounterPage extends StatelessWidget {
 }
 ```
 
+---
 ## flutter_bloc
 
 ### BlocBuilder
@@ -229,6 +253,12 @@ class CounterPage extends StatelessWidget {
 
 ```dart
 BlocBuilder<CounterCubit类, int>(
+    builder: (context, count) => Text('$count'),
+),
+```
+
+```dart
+BlocBuilder<Bloc类, State类>(
     builder: (context, count) => Text('$count'),
 ),
 ```
@@ -244,10 +274,91 @@ BlocProvider(
 );
 ```
 
+---
+## 项目代码
+
+### Cubit
+
+```dart
+class CounterCubit extends Cubit<int> {
+  CounterCubit() : super(0);
+
+  void increment() => emit(state + 1);
+  void decrement() => emit(state - 1);
+}
+```
+
+### bloc类
+
+```dart
+class PostBloc类 extends Bloc<PostEvent事件类, PostState状态类> {
+  PostBloc类() : super(const PostState状态类()) {
+    on<TimerStarted事件子类>(_onStarted);
+    on<TimerPaused事件子类>(_onPaused);
+    on<TimerResumed事件子类>(_onResumed);
+    on<TimerReset事件子类>(_onReset);
+    on<TimerTicked事件子类>(_onTicked);
+  }
+  
+  // 一个方法
+  void _onStarted(TimerStarted事件子类 event, Emitter<TimerState状态类> emit) {
+    emit(TimerRunInProgress(event.duration));
+  }
+  
+}
+```
+
+### Event事件
+
+```dart
+abstract class PostEvent extends Equatable {
+}
+
+class PostFetched extends PostEvent {}
+```
+
+### Status状态
+
+```dart
+enum PostStatus { initial, success, failure }
+
+class PostState extends Equatable {
+  const PostState({
+    this.status = PostStatus.initial,
+    this.posts = const <Post>[],
+    this.hasReachedMax = false,
+  });
+
+  final PostStatus status;
+  final List<Post> posts;
+  final bool hasReachedMax;
+  
+  @override
+  String toString() {
+    return '''posts: ${posts.length} }''';
+  }
+}
+```
+
+---
 ## 使用
 
 ### 使用函数
 
 ```dart
-context.read<CounterCubit类>().decrement方法()
+context.read<Cubit类>().方法()
+```
+
+可以不传参数
+
+```dart
+context.read<Bloc类>().add(事件(参数: 值))
+```
+
+### Bloc获取状态
+
+状态发生改变时 这个变量值也会改变
+
+```dart
+final duration = context.select((Bloc类 bloc) => bloc.state.状态名);
 ```
