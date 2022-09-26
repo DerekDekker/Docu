@@ -360,5 +360,5 @@ context.read<Bloc类>().add(事件(参数: 值))
 状态发生改变时 这个变量值也会改变
 
 ```dart
-final duration = context.select((Bloc类 bloc) => bloc.state.状态名);
+final duration = context.select((Bloc类 bloc) => bloc.state.状态变量);
 ```
