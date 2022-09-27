@@ -302,7 +302,8 @@ class PostBloc类 extends Bloc<PostEvent事件类, PostState状态类> {
   
   // 一个方法
   void _onStarted(TimerStarted事件子类 event, Emitter<TimerState状态类> emit) {
-    emit(TimerRunInProgress(event.duration));
+    emit(TimerRunInProgress(event.duration));  // 更新状态
+    TimerStarted事件子类.属性  // 获取事件参数
   }
   
 }
@@ -315,6 +316,20 @@ abstract class PostEvent extends Equatable {
 }
 
 class PostFetched extends PostEvent {}
+```
+
+```dart
+@immutable
+abstract class GpsEvent {
+  const GpsEvent();
+}
+
+class GpsInitialization extends GpsEvent {}
+
+class GpsUpdate extends GpsEvent {
+  const GpsUpdate({required this.gpsModel});
+  final GpsModel gpsModel;  // 参数
+}
 ```
 
 ### Status状态
