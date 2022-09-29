@@ -38,6 +38,7 @@ Scaffold(
     drawer: Drawer()  // 左侧抽屉
     body: 主体 
     floatingActionButton: FloatingActionButton()  // 右下角按钮 允许放其他组件
+    extendBodyBehindAppBar: false,  // 是否允许AppBar透明
 ),
 ```
 
@@ -316,3 +317,55 @@ InputDecoration(
 | thickness | 厚度  |
 | color     | 颜色  |
 
+---
+## TextField
+
+文本域
+
+
+| 参数            | 描述                 |
+|---------------|--------------------|
+| onTap         | 点击                 |
+| autofocus     | 是否获取焦点             |
+| decoration    | 样式 InputDecoration |
+
+
+InputDecoration 样式
+
+```dart
+InputDecoration(
+    // 边框
+    enabledBorder: OutlineInputBorder(
+      // 边角
+      borderRadius: BorderRadius.all(
+        Radius.circular(10),
+      ),
+      // 边框线
+      borderSide: BorderSide(
+        color: Color(0xfff4f6fa), // 边线颜色
+        width: 1.5, // 粗细
+      ),
+    ),
+    // 被选中样式
+    focusedBorder: OutlineInputBorder(
+        // 边框线
+        borderSide: BorderSide(
+          color: Color(0xfff4f6fa), //边框颜色为绿色
+          width: 1.5, //宽度为5
+        )
+    ),
+    // 填充颜色
+    fillColor: Color(0xfff4f6fa),
+    // 是否启动 填充颜色
+    filled: false,
+    // 标签文本 选中后会移到上方
+    labelText: "用户名",
+    // 提示文本 在下方显示
+    helperText: "用户名或邮箱",
+    // 提示文本 在输入框内显示 输入后消失
+    hintText: "邮箱或ID",
+    // 错误提示文本 在下方显示
+    errorText: "errorText",
+    prefixIcon: Icon(Icons.perm_identity),
+)
+```
