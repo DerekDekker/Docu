@@ -329,7 +329,6 @@ InputDecoration(
 | autofocus     | 是否获取焦点             |
 | decoration    | 样式 InputDecoration |
 
-
 InputDecoration 样式
 
 ```dart
@@ -366,6 +365,15 @@ InputDecoration(
     hintText: "邮箱或ID",
     // 错误提示文本 在下方显示
     errorText: "errorText",
+    // 图标
     prefixIcon: Icon(Icons.perm_identity),
 )
+```
+
+输入框改变时
+
+```dart
+onChanged: (value){
+    print('你输入的内容为$value');
+}
 ```
