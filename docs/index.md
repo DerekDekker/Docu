@@ -44,7 +44,3 @@ Hi 我是 DerekDekker 是一位后端工程师。
 [异常](/Python/异常/)
 [蓝牙](/Python/蓝牙/)
 [serial](/Python/serial/)
-
-### 准备学习
-
-消息队列 yml
