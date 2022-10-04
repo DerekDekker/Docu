@@ -195,6 +195,8 @@ nav:
           - HoleHub-Django: Nginx/HoleHub-Django.md
       - Mqtt:
           - 代码: home/index.md
+      - ZeroMQ:
+          - 基础: ZeroMQ/基础.md
 
   - 扩展:
       - Markdown:
