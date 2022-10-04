@@ -79,64 +79,6 @@ nav:
         - socket: 网络/socket.md
         - TCP: 网络/TCP.md
         - UDP: 网络/UDP.md
-  - 设计模式:
-      - 单例模式:
-          - 代码: 设计模式/单例模式_01/singleton.md
-      - 原型模式:
-          - 代码: 设计模式/原型模式_02/singleton.md
-      - 工厂模式:
-          - 简单工厂: 设计模式/工厂模式_03/简单工厂.md
-          - 抽象工厂: 设计模式/工厂模式_03/抽象工厂.md
-          - 工厂方法: 设计模式/工厂模式_03/工厂方法.md
-      - 建造者模式:
-          - 代码: 设计模式/建造者模式_04/builder.md
-      - 适配器模式:
-          - 代码: 设计模式/适配器模式_05/adapter.md
-      - 桥模式:
-          - 代码: 设计模式/桥模式_06/bridge.md
-      - 组合模式:
-          - 代码: 设计模式/组合模式_07/composite.md
-      - 外观模式:
-          - 代码: 设计模式/外观模式_08/facade.md
-      - 代理模式:
-          - 代码: 设计模式/代理模式_09/chain_of_responsibility.md
-      - 责任链模式:
-          - 代码: 设计模式/责任链模式_10/responsibility.md
-      - 观察者模式:
-          - 代码: 设计模式/观察者模式_11/observer.md
-      - 策略模式:
-          - 代码: 设计模式/策略模式_12/strategy.md
-      - 模板模式:
-          - 代码: 设计模式/模板模式_13/template_method.md
-  - Django:
-      - 框架: Django/框架.md
-      - Model: Django/model.md
-      - View: Django/views.md
-      - Admin: Django/admin.md
-      - Settings: Django/settings.md
-      - templates: Django/templates.md
-      - urls: Django/urls.md
-      - 扩展: Django/扩展.md
-      - ORM: Django/ORM.md
-      - Django REST framework:
-          - rest: Django/Django_REST_framework/rest.md
-          - serializers: Django/Django_REST_framework/serializers.md
-  - FastAPI:
-      - 基础: FastAPI/基础.md
-      - 依赖: FastAPI/依赖.md
-      - 安全与认证: FastAPI/安全与认证.md
-      - HTML: FastAPI/HTML.md
-      - pydantic: FastAPI/pydantic.md
-      - 扩展: FastAPI/扩展.md
-      - 常用库: FastAPI/常用库.md
-  - SQLModel:
-      - 基础: SQLModel/基础.md
-      - model: SQLModel/model.md
-      - 增删改: SQLModel/增删改.md
-      - 查询: SQLModel/查询.md
-      - SQLModel与FaseAPI: SQLModel/SQLModel与FaseAPI.md
-  - PySide:
-      - 代码: home/index.md
   - Flutter:
       - Dart: Flutter/Dart.md
       - 基础: Flutter/基础.md
@@ -156,7 +98,44 @@ nav:
       - 权限与用户: Linux/权限与用户.md
       - 知识: Linux/知识.md
       - shell: Linux/shell.md
-  - 数据库:
+  - 硬件:
+      - 树莓派:
+          - 基础: 树莓派/Dart.md
+          - 知识: 树莓派/知识.md
+          - 树莓派: 树莓派/树莓派.md
+          - 命令: 树莓派/命令.md
+          - GPIO: 树莓派/GPIO.md
+
+  - 框架:
+    - FastAPI:
+        - 基础: FastAPI/基础.md
+        - 依赖: FastAPI/依赖.md
+        - 安全与认证: FastAPI/安全与认证.md
+        - HTML: FastAPI/HTML.md
+        - pydantic: FastAPI/pydantic.md
+        - 扩展: FastAPI/扩展.md
+        - 常用库: FastAPI/常用库.md
+    - SQLModel:
+        - 基础: SQLModel/基础.md
+        - model: SQLModel/model.md
+        - 增删改: SQLModel/增删改.md
+        - 查询: SQLModel/查询.md
+        - SQLModel与FaseAPI: SQLModel/SQLModel与FaseAPI.md
+    - Django:
+        - 框架: Django/框架.md
+        - Model: Django/model.md
+        - View: Django/views.md
+        - Admin: Django/admin.md
+        - Settings: Django/settings.md
+        - templates: Django/templates.md
+        - urls: Django/urls.md
+        - 扩展: Django/扩展.md
+        - ORM: Django/ORM.md
+        - Django REST framework:
+            - rest: Django/Django_REST_framework/rest.md
+            - serializers: Django/Django_REST_framework/serializers.md
+    - PySide:
+        - 代码: home/index.md
     - MySql:
         - SQL: MySql/SQL.md
         - 命令: MySql/命令.md
@@ -169,37 +148,60 @@ nav:
         - 数据类型: Redis/数据类型.md
         - 代码: Redis/代码.md
         - 命令: Redis/命令.md
-  - Docker:
-      - 命令: Docker/命令.md
-      - 基础: Docker/Dockerfile基础.md
-      - docker-compose: Docker/docker-compose.md
-      - Dockerfile: Docker/Dockerfile.md
-      - Kubernetes: Docker/Kubernetes.md
-  - 硬件:
-      - 树莓派:
-          - 基础: 树莓派/Dart.md
-          - 知识: 树莓派/知识.md
-          - 树莓派: 树莓派/树莓派.md
-          - 命令: 树莓派/命令.md
-          - GPIO: 树莓派/GPIO.md
-  - 密码学:
-      - 基础: 密码学/Dart.md
-      - AES: 密码学/AES.md
-      - RSA: 密码学/RSA.md
-      - Hashing: 密码学/Hashing.md
-      - MAC: 密码学/MAC.md
-      - Two-factor authentication: 密码学/Two-factor authentication.md
-  - 中间件:
-      - Nginx:
-          - 框架: Nginx/框架.md
-          - 站点配置参数: Nginx/站点配置参数.md
-          - HoleHub-Django: Nginx/HoleHub-Django.md
-      - Mqtt:
-          - 代码: home/index.md
-      - ZeroMQ:
-          - 基础: ZeroMQ/基础.md
+    - Nginx:
+        - 框架: Nginx/框架.md
+        - 站点配置参数: Nginx/站点配置参数.md
+        - HoleHub-Django: Nginx/HoleHub-Django.md
+    - Mqtt:
+        - 代码: home/index.md
+    - ZeroMQ:
+        - 基础: ZeroMQ/基础.md
+    - Docker:
+        - 命令: Docker/命令.md
+        - 基础: Docker/Dockerfile基础.md
+        - docker-compose: Docker/docker-compose.md
+        - Dockerfile: Docker/Dockerfile.md
+        - Kubernetes: Docker/Kubernetes.md
+  - 知识:
+      - 设计模式:
+          - 单例模式:
+              - 代码: 设计模式/单例模式_01/singleton.md
+          - 原型模式:
+              - 代码: 设计模式/原型模式_02/singleton.md
+          - 工厂模式:
+              - 简单工厂: 设计模式/工厂模式_03/简单工厂.md
+              - 抽象工厂: 设计模式/工厂模式_03/抽象工厂.md
+              - 工厂方法: 设计模式/工厂模式_03/工厂方法.md
+          - 建造者模式:
+              - 代码: 设计模式/建造者模式_04/builder.md
+          - 适配器模式:
+              - 代码: 设计模式/适配器模式_05/adapter.md
+          - 桥模式:
+              - 代码: 设计模式/桥模式_06/bridge.md
+          - 组合模式:
+              - 代码: 设计模式/组合模式_07/composite.md
+          - 外观模式:
+              - 代码: 设计模式/外观模式_08/facade.md
+          - 代理模式:
+              - 代码: 设计模式/代理模式_09/chain_of_responsibility.md
+          - 责任链模式:
+              - 代码: 设计模式/责任链模式_10/responsibility.md
+          - 观察者模式:
+              - 代码: 设计模式/观察者模式_11/observer.md
+          - 策略模式:
+              - 代码: 设计模式/策略模式_12/strategy.md
+          - 模板模式:
+              - 代码: 设计模式/模板模式_13/template_method.md
+      - 密码学:
+          - 基础: 密码学/Dart.md
+          - AES: 密码学/AES.md
+          - RSA: 密码学/RSA.md
+          - Hashing: 密码学/Hashing.md
+          - MAC: 密码学/MAC.md
+          - Two-factor authentication: 密码学/Two-factor authentication.md
 
   - 扩展:
+      - yaml: 扩展/yaml.md
       - Markdown:
         - 代码: Markdown/代码.md
         - Material for MkDocs: Material for MkDocs/代码.md
