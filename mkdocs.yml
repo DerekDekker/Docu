@@ -69,7 +69,7 @@ nav:
     - 类: Python/类.md
     - 异常: Python/异常.md
     - 正则表达式: Python/正则表达式.md
-    - 正则表达式: Python/yaml.md
+    - yaml: Python/yaml.md
     - 扩展:
         - PyCharm: Python/PyCharm.md
         - Conda: Python/Conda.md
