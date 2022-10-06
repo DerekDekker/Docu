@@ -3,9 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="cec12044-66c9-4127-8657-6144d5c5cbe8" name="变更" comment="test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01.py" beforeDir="false" afterPath="$PROJECT_DIR$/01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Python/sys.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Python/sys.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Python/时间.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Python/时间.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/MySql/SQL.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/MySql/SQL.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/MySql/命令.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/MySql/命令.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Nginx/HoleHub-Django.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Nginx/框架.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Nginx/基础.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Nginx/站点配置参数.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Nginx/配置.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mkdocs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mkdocs.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +43,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -192,7 +196,10 @@
       <workItem from="1664884319292" duration="102000" />
       <workItem from="1664886740526" duration="688000" />
       <workItem from="1664890603509" duration="8683000" />
-      <workItem from="1664902248116" duration="5611000" />
+      <workItem from="1664902248116" duration="6230000" />
+      <workItem from="1665022053407" duration="19000" />
+      <workItem from="1665031929690" duration="381000" />
+      <workItem from="1665084045131" duration="2234000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1659843823314</created>
@@ -439,7 +446,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664901581966</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="test">
+      <created>1664907876082</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1664907876082</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -149,9 +149,8 @@ nav:
         - 代码: Redis/代码.md
         - 命令: Redis/命令.md
     - Nginx:
-        - 框架: Nginx/框架.md
-        - 站点配置参数: Nginx/站点配置参数.md
-        - HoleHub-Django: Nginx/HoleHub-Django.md
+        - 基础: Nginx/基础.md
+        - 配置: Nginx/配置.md
     - Mqtt:
         - 代码: home/index.md
     - ZeroMQ:
