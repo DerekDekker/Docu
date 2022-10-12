@@ -139,11 +139,12 @@ nav:
     - MySql:
         - SQL: MySql/SQL.md
         - 命令: MySql/命令.md
+        - 数据库: MySql/数据库.md
     - SQLtie:
         - SQL: SQLtie/SQL.md
         - Join: SQLtie/Join.md
-    - Mong DB:
-        - 代码: home/index.md
+    - MongDB:
+        - 代码: MongDB/基础.md
     - Redis:
         - 数据类型: Redis/数据类型.md
         - 代码: Redis/代码.md
