@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cec12044-66c9-4127-8657-6144d5c5cbe8" name="变更" comment="test">
-      <change afterPath="$PROJECT_DIR$/docs/MongDB/基础.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/MySql/数据库.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Flutter/布局组件.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Flutter/布局组件.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/MySql/SQL.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/MySql/SQL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/MySql/命令.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/MySql/命令.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mkdocs.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +31,7 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="2D0lByZmNk7VQDPYYANZAgGHTUo" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -44,15 +39,9 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="mysql" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/assets/image" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -210,7 +199,9 @@
       <workItem from="1665407255707" duration="6000" />
       <workItem from="1665506157640" duration="42000" />
       <workItem from="1665506582708" duration="1586000" />
-      <workItem from="1665588748451" duration="5848000" />
+      <workItem from="1665588748451" duration="6057000" />
+      <workItem from="1665648556517" duration="10000" />
+      <workItem from="1665718532896" duration="2103000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1659843823314</created>
