@@ -91,6 +91,7 @@ nav:
       - 路由: Flutter/路由.md
       - 扩展: Flutter/扩展.md
       - bloc: Flutter/bloc.md
+      - Provider: Flutter/Provider.md
   - Linux:
       - 命令: Linux/命令.md
       - 系统工具: Linux/系统工具.md

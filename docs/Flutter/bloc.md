@@ -44,13 +44,6 @@ class CounterCubit extends Cubit<int> {
 ```
 
 ```dart
-// 接收参数 
-class CounterCubit extends Cubit<int> {
-  CounterCubit(int initialState) : super(initialState);
-}
-```
-
-```dart
 // 实力化
 final cubitA = CounterCubit(参数);
 
@@ -269,9 +262,20 @@ BlocBuilder<Bloc类, State类>(
 
 ```dart
 BlocProvider(
+  lazy: true, // 可选 true 在使用时创建  false 立刻创建
   create: (_) => BlocA(),  // Bloc累
   child: ChildA(),  // 组件
 );
+```
+
+```dart
+// 获取到Bloc
+
+// with extensions
+context.read<BlocA>();
+
+// without extensions
+BlocProvider.of<BlocA>(context)
 ```
 
 ---
@@ -311,18 +315,11 @@ class PostBloc类 extends Bloc<PostEvent事件类, PostState状态类> {
 
 ### Event事件
 
-```dart
-abstract class PostEvent extends Equatable {
-}
 
-class PostFetched extends PostEvent {}
-```
 
 ```dart
 @immutable
-abstract class GpsEvent {
-  const GpsEvent();
-}
+abstract class GpsEvent {}
 
 class GpsInitialization extends GpsEvent {}
 
@@ -364,7 +361,6 @@ class PostState extends Equatable {
 context.read<Cubit类>().方法()
 ```
 
-可以不传参数
 
 ```dart
 context.read<Bloc类>().add(事件(参数: 值))
