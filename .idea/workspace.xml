@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cec12044-66c9-4127-8657-6144d5c5cbe8" name="变更" comment="test">
-      <change afterPath="$PROJECT_DIR$/docs/Flutter/Provider.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Flutter/bloc.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Flutter/bloc.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mkdocs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Flutter/Provider.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Flutter/Provider.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,6 +228,7 @@
       <workItem from="1666957414084" duration="2572000" />
       <workItem from="1667018507110" duration="13000" />
       <workItem from="1667095007943" duration="11654000" />
+      <workItem from="1667184080785" duration="5136000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1659843823314</created>

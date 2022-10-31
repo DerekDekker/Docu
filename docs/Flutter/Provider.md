@@ -5,7 +5,7 @@
 
 ---
 
-### 不知道叫啥
+## 提供者
 
 ### Provider
 
@@ -124,8 +124,87 @@ Stream<UserModel> getStreamUserModel(){
 }
 ```
 
----
 
+### MultiProvider
+
+多个
+
+```dart
+// ChangeNotifierProvider 可以是其他的
+
+MultiProvider(
+  providers: [
+    ChangeNotifierProvider<Model模型1>(create: (context) => Model模型1()),
+    ChangeNotifierProvider<Model模型2>(create: (context) => Model模型2()),
+  ],
+  child: MaterialApp(),
+),
+```
+
+```dart
+// Consumer 有几个模型输入几 Consumer2 Consumer3 Consumer 4
+
+Consumer2<UserModel, UserModel2>(
+  builder: (_, userModel, userModel2, child) {
+    return Text(userModel.name);
+})
+```
+
+### ProxyProvider
+
+将状态在提供者间共享 需要用到 MultiProvider
+
+```dart
+
+MultiProvider(
+  providers: [
+    ChangeNotifierProvider<Model模型1>(create: (_) => Model模型1()),  // 可以是其他提供者
+    ProxyProvider<Model模型1, Model模型2>(
+      update: (_, userModel5, walletModel) =>
+          Model模型2(字段: Model模型1),  // 将 Model模型1 传递给 Model模型2
+    )
+  ],
+  child: MaterialApp(),
+)
+```
+
+### ChangeNotifierProxyProvider
+
+和 `ProxyProvider` 原理一样, 区别在于它构建和同步 `ChangeNotifierProvider`, 当提供者数据变化时，将会重构UI
+
+```dart
+MultiProvider(
+  providers: [
+    Provider(create: (_) => Model模型1()),  // 可以是其他提供者
+    ChangeNotifierProxyProvider<Model模型1, Model模型2>(
+      create: (_) => Model模型2(Model模型1()),
+      update: (_, model模型1, model模型2) => Model模型2(model模型1),
+    )
+  ],
+  child: MaterialApp(),
+)
+```
+
+```dart title="Model模型2"
+
+class 模型Model2 extends ChangeNotifier{
+  // 依赖的Model
+  final Model模型1 model模型1;
+  
+  Model模型2(this.model模型1);
+
+  String name = '值';
+
+  void 方法(){
+    name = 'hello';
+    notifyListeners ();  // 刷新UI
+  }
+}
+
+```
+
+
+---
 ## 消费者
 
 ```dart
