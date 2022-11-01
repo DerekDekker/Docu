@@ -195,7 +195,7 @@ nav:
           - 模板模式:
               - 代码: 设计模式/模板模式_13/template_method.md
       - 密码学:
-          - 基础: 密码学/Dart.md
+          - 基础: 密码学/基础.md
           - AES: 密码学/AES.md
           - RSA: 密码学/RSA.md
           - Hashing: 密码学/Hashing.md
