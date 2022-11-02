@@ -1,11 +1,26 @@
-串口
-/dev/ttyS0
+# GPIO
 
-USB转窜口
-/dev/ttyUSB0
+---
+## 介绍
 
-参看全部接口
+| 关键字            | 描述        |
+|----------------|-----------|
+| /dev/ttyS0     | 串口        |
+| /dev/ttyUSB0   | USB转窜口    |
+
+---
+## 命令
+
+```shell
+# 参看全部接口
 ls -l /dev/tty*
 
-获取串口数据
+```
+
+---
+
+## 获取串口数据
+
+```shell
 minicom -b 9600 -o -D /dev/ttyUSB0
+```

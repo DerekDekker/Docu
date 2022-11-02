@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cec12044-66c9-4127-8657-6144d5c5cbe8" name="变更" comment="test">
+      <change afterPath="$PROJECT_DIR$/docs/树莓派/工具.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Python/pip.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Python/pip.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Python/基础.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Python/基础.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/密码学/AES.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/密码学/AES.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/密码学/Hashing.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/密码学/Hashing.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/密码学/MAC.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/密码学/MAC.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/密码学/RSA.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/密码学/RSA.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/密码学/Two-factor authentication.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/密码学/Two-factor authentication.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/密码学/基础.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/密码学/基础.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Redis/代码.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Redis/命令.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Redis/基础.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Redis/数据类型.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/树莓派/GPIO.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/树莓派/GPIO.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/树莓派/命令.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/树莓派/命令.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/树莓派/基础.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/树莓派/基础.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/树莓派/树莓派.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/树莓派/知识.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mkdocs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mkdocs.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -238,7 +238,8 @@
       <workItem from="1667018507110" duration="13000" />
       <workItem from="1667095007943" duration="11654000" />
       <workItem from="1667184080785" duration="5136000" />
-      <workItem from="1667305915539" duration="15418000" />
+      <workItem from="1667305915539" duration="15923000" />
+      <workItem from="1667377030904" duration="3134000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1659843823314</created>
