@@ -55,6 +55,7 @@ nav:
   - Python:
     - 基础: Python/基础.md
     - 数据类型: Python/数据类型.md
+    - 面向对象: Python/面向对象.md
     - open: Python/open.md
     - os: Python/os.md
     - sys: Python/sys.md
@@ -66,7 +67,6 @@ nav:
     - 定时任务: Python/定时任务.md
     - 多线程: Python/多线程.md
     - 包: Python/包.md
-    - 类: Python/类.md
     - 异常: Python/异常.md
     - 正则表达式: Python/正则表达式.md
     - yaml: Python/yaml.md
@@ -81,6 +81,7 @@ nav:
         - UDP: 网络/UDP.md
   - Flutter:
       - Dart: Flutter/Dart.md
+      - 数据类型: Flutter/数据类型.md
       - 基础: Flutter/基础.md
       - Android组件: Flutter/Android组件.md
       - 布局组件: Flutter/布局组件.md
@@ -93,7 +94,7 @@ nav:
       - bloc: Flutter/bloc.md
       - Provider: Flutter/Provider.md
   - Linux:
-      - 命令: Linux/工具.md
+      - 命令: Linux/命令.md
       - 系统工具: Linux/系统工具.md
       - 第三方工具: Linux/第三方工具.md
       - 权限与用户: Linux/权限与用户.md
@@ -141,6 +142,7 @@ nav:
         - 命令: MySql/工具.md
         - 数据库: MySql/数据库.md
     - SQLtie:
+        - 基础: SQLtie/基础.md
         - SQL: SQLtie/SQL.md
         - Join: SQLtie/Join.md
     - MongoDB:

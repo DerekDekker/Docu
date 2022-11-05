@@ -14,6 +14,7 @@ Hi 我是 DerekDekker 是一位后端工程师。
 ---
 ## 文档
 
+准备学 C语言 MongDB 补充Python
 ### 扩展
 [Markdown](/Markdown/代码/)
 [Tor 准备学习](#)

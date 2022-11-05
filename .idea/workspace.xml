@@ -2,16 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cec12044-66c9-4127-8657-6144d5c5cbe8" name="变更" comment="test">
-      <change afterPath="$PROJECT_DIR$/docs/树莓派/工具.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Flutter/数据类型.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/SQLtie/基础.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Redis/代码.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Redis/命令.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Redis/基础.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Redis/数据类型.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/树莓派/GPIO.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/树莓派/GPIO.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/树莓派/命令.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/树莓派/命令.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/树莓派/基础.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/树莓派/基础.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/树莓派/树莓派.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/树莓派/知识.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Flutter/Dart.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Flutter/Dart.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Flutter/Provider.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Flutter/Provider.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Python/open.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Python/open.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Python/基础.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Python/基础.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Python/数据类型.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Python/数据类型.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Python/类.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Python/面向对象.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Redis/Python_数据类型.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Redis/Python_数据类型.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/SQLtie/Join.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/SQLtie/Join.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/SQLtie/SQL.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/SQLtie/SQL.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mkdocs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mkdocs.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,6 +90,50 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="operator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Docu" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads/Python-100-Days-master/Day01-15/code/Day02" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/Python-100-Days-master/Day01-15/code/Day02/operator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="peppa_pig" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Docu" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads/Python-100-Days-master/Day01-15/code/Day01" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/Python-100-Days-master/Day01-15/code/Day01/peppa_pig.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="01.sh" type="ShConfigurationType" temporary="true">
       <option name="SCRIPT_TEXT" value="" />
       <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
@@ -104,6 +152,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.01" />
+        <item itemvalue="Python.operator" />
+        <item itemvalue="Python.peppa_pig" />
         <item itemvalue="Shell Script.01.sh" />
       </list>
     </recent_temporary>
@@ -239,7 +289,11 @@
       <workItem from="1667095007943" duration="11654000" />
       <workItem from="1667184080785" duration="5136000" />
       <workItem from="1667305915539" duration="15923000" />
-      <workItem from="1667377030904" duration="3134000" />
+      <workItem from="1667377030904" duration="6344000" />
+      <workItem from="1667408379901" duration="640000" />
+      <workItem from="1667486289039" duration="4637000" />
+      <workItem from="1667530797309" duration="13339000" />
+      <workItem from="1667554899397" duration="26620000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1659843823314</created>
@@ -529,6 +583,8 @@
     <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Docu$01.coverage" NAME="01 覆盖结果" MODIFIED="1667322703495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Docu$01.coverage" NAME="01 覆盖结果" MODIFIED="1667656591865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Docu$peppa_pig.coverage" NAME="peppa_pig 覆盖结果" MODIFIED="1667555572387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads/Python-100-Days-master/Day01-15/code/Day01" />
+    <SUITE FILE_PATH="coverage/Docu$operator.coverage" NAME="operator 覆盖结果" MODIFIED="1667555575704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads/Python-100-Days-master/Day01-15/code/Day02" />
   </component>
 </project>

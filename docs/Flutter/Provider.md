@@ -141,14 +141,6 @@ MultiProvider(
 ),
 ```
 
-```dart
-// Consumer 有几个模型输入几 Consumer2 Consumer3 Consumer 4
-
-Consumer2<UserModel, UserModel2>(
-  builder: (_, userModel, userModel2, child) {
-    return Text(userModel.name);
-})
-```
 
 ### ProxyProvider
 
@@ -207,20 +199,95 @@ class 模型Model2 extends ChangeNotifier{
 ---
 ## 消费者
 
+### Provider.of
+
 ```dart
-Consumer<Model模型>(builder: (_, model实例, child) {
-    return Text(model实例.属性);
-}
+Provider.of<CountNotifier1>(context);
+Provider.of<CountNotifier1>(context,listen: false);
+
+Provider.of<CountNotifier1>(context).属性
+Provider.of<CountNotifier1>(context).方法()
 ```
 
-## 生产者
+### Consumer
+
+可以在包裹的组件内使用属性或方法
 
 ```dart
 Consumer<Model模型>(
-    builder: (_, model实例, child) {
-      return 按钮(
-        onPressed: () => model实例.方法(),
-      );
+    builder: (BuildContext context, model实例, child) {
+      return Text(model实例.属性);
     }
 )
+```
+
+不刷新的组件放到child来提升性能
+
+```dart
+Consumer<Model模型>(
+    builder: (BuildContext context, model实例, child) {
+      return child!;
+    }
+    child: 组件()  // 不刷新的组件
+)
+```
+
+多个模型
+```dart
+// Consumer 有几个模型输入几 Consumer2 Consumer3 Consumer 4 最多为6
+
+Consumer2<UserModel, UserModel2>(
+  builder: (BuildContext context, userModel, userModel2, child) {
+    return Text(userModel.name);
+})
+```
+
+
+### Selector
+
+不会更新全部值, 只会更新返回的值, 提升性能。 其他与 `Consumer` 类似, 
+
+```dart
+Selector<Model模型, 数据类型>(
+  selector: (BuildContext context, model实例) => model实例.属性,  // 要返回的属性
+  builder: (BuildContext context, 属性, child) {  // 属性为接收的属性
+    return Text(属性.toString(),);
+  },
+  child: 组件,  // 不刷新的组件
+)
+```
+
+---
+## InheritedContext
+
+### BuildContext.read
+
+获取值, 但不会监听变化
+
+```dart
+final 名称 = context.read<Model模型>()();
+
+名称.属性
+名称.方法
+```
+
+### BuildContext.watch
+
+监听变化
+
+```dart
+final 名称 = context.watch<Model模型>();
+
+名称.属性
+名称.方法
+```
+
+### BuildContext.select
+
+与 Selector 相同, 名称等于属性值
+
+```dart
+
+final 名称 = context.select((Model模型 model实例) => model实例.属性);
+
 ```
