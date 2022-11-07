@@ -56,19 +56,19 @@ nav:
     - 基础: Python/基础.md
     - 数据类型: Python/数据类型.md
     - 面向对象: Python/面向对象.md
+    - pip: Python/pip.md
+    - 并发: Python/并发.md
+    - 正则表达式: Python/正则表达式.md
     - open: Python/open.md
     - os: Python/os.md
     - sys: Python/sys.md
-    - pip: Python/pip.md
     - requests: Python/Requests.md
     - 时间: Python/时间.md
     - beautifulsoup4: Python/beautifulsoup4.md
     - logging: Python/logging.md
     - 定时任务: Python/定时任务.md
-    - 多线程: Python/多线程.md
     - 包: Python/包.md
     - 异常: Python/异常.md
-    - 正则表达式: Python/正则表达式.md
     - yaml: Python/yaml.md
     - 扩展:
         - PyCharm: Python/PyCharm.md
