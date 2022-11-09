@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cec12044-66c9-4127-8657-6144d5c5cbe8" name="变更" comment="test">
-      <change afterPath="$PROJECT_DIR$/docs/Python/并发.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/01.py" beforeDir="false" afterPath="$PROJECT_DIR$/01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Python/基础.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Python/基础.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Python/多线程.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Python/数据类型.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Python/数据类型.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Python/正则表达式.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Python/正则表达式.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mkdocs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Flutter/Dart.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Flutter/Dart.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Flutter/数据类型.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Flutter/数据类型.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -289,6 +285,10 @@
       <workItem from="1667554899397" duration="27219000" />
       <workItem from="1667659221209" duration="17457000" />
       <workItem from="1667834135579" duration="4707000" />
+      <workItem from="1667965137613" duration="211000" />
+      <workItem from="1667965433623" duration="7751000" />
+      <workItem from="1667993014634" duration="806000" />
+      <workItem from="1667993832648" duration="8748000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1659843823314</created>
