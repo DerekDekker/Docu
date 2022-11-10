@@ -79,6 +79,9 @@ nav:
         - socket: 网络/socket.md
         - TCP: 网络/TCP.md
         - UDP: 网络/UDP.md
+  - C/C++:
+      - 基础: C/基础.md
+      - 数据类型: C/数据类型.md
   - Flutter:
       - Dart: Flutter/Dart.md
       - 数据类型: Flutter/数据类型.md
@@ -167,6 +170,9 @@ nav:
         - Kubernetes: Docker/Kubernetes.md
   - 知识:
       - 框架介绍: 知识/框架介绍.md
+      - 计算机:
+          - ASCII: 知识/计算机/ASCII.md
+          - 摩斯电码: 知识/计算机/摩斯电码.md
       - 设计模式:
           - 单例模式:
               - 代码: 设计模式/单例模式_01/singleton.md
@@ -203,6 +209,7 @@ nav:
           - Hashing: 密码学/Hashing.md
           - MAC: 密码学/MAC.md
           - Two-factor authentication: 密码学/Two-factor authentication.md
+
 
   - 扩展:
       - yaml: 扩展/yaml.md
