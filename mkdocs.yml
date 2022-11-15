@@ -166,11 +166,7 @@ nav:
     - ZeroMQ:
         - 基础: ZeroMQ/基础.md
     - Docker:
-        - 命令: Docker/工具.md
-        - 基础: Docker/Dockerfile基础.md
-        - docker-compose: Docker/docker-compose.md
-        - Dockerfile: Docker/Dockerfile.md
-        - Kubernetes: Docker/Kubernetes.md
+        - 基础: Docker/基础.md
   - 知识:
       - 框架介绍: 知识/框架介绍.md
       - 计算机:
