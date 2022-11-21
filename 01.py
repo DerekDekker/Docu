@@ -1,5 +1,3 @@
-import uuid
+from C import *
 
-x = uuid.uuid4()
-
-print(str(x))
+a = A()

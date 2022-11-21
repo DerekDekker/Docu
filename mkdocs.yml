@@ -104,6 +104,10 @@ nav:
       - 知识: Linux/知识.md
       - shell: Linux/shell.md
   - 硬件:
+      - ESP32:
+          - 基础: ESP32/基础.md
+      - 电路:
+          - 电路图: 电路/电路图.md
       - 树莓派:
           - 基础: 树莓派/基础.md
           - 命令: 树莓派/命令.md
@@ -129,7 +133,7 @@ nav:
         - 查询: SQLModel/查询.md
         - SQLModel与FaseAPI: SQLModel/SQLModel与FaseAPI.md
     - Django:
-        - 框架: Django/框架介绍.md
+        - 框架: Django/框架.md
         - Model: Django/model.md
         - View: Django/views.md
         - Admin: Django/admin.md

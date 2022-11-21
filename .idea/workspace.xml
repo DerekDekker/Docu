@@ -2,19 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cec12044-66c9-4127-8657-6144d5c5cbe8" name="变更" comment="提交">
-      <change afterPath="$PROJECT_DIR$/C/A.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C/B.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/ESP32/基础.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/image/1652926241432.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/电路/电路图.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/01.py" beforeDir="false" afterPath="$PROJECT_DIR$/01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Docker/Dockerfile.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Docker/Dockerfile基础.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Docker/Kubernetes.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Docker/docker-compose.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Docker/命令.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Docker/基础.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/MongoDB/基础.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/MongoDB/基础.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Python/包.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Python/包.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Django/框架.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Django/框架.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Docker/基础.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Docker/基础.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/FastAPI/基础.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/FastAPI/基础.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Flutter/Dart.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Flutter/Dart.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Python/时间.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Python/时间.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/SQLModel/基础.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/SQLModel/基础.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/设计模式/工厂模式_03/工厂方法.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/设计模式/工厂模式_03/工厂方法.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/设计模式/工厂模式_03/简单工厂.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/设计模式/工厂模式_03/简单工厂.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mkdocs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mkdocs.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,14 +49,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/x/Documents/GitHub/Docu/docs/assets/image",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/docs/assets/image" />
@@ -318,7 +319,10 @@
       <workItem from="1668432382232" duration="131000" />
       <workItem from="1668432571161" duration="39000" />
       <workItem from="1668493141665" duration="1974000" />
-      <workItem from="1668495599932" duration="8838000" />
+      <workItem from="1668495599932" duration="8885000" />
+      <workItem from="1668532263804" duration="5016000" />
+      <workItem from="1668604544420" duration="32000" />
+      <workItem from="1669006312558" duration="719000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1659843823314</created>
@@ -621,7 +625,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668432420686</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="提交">
+      <created>1668524266827</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1668524266827</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -648,7 +659,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Docu$01.coverage" NAME="01 覆盖结果" MODIFIED="1668520724281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Docu$peppa_pig.coverage" NAME="peppa_pig 覆盖结果" MODIFIED="1667555572387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads/Python-100-Days-master/Day01-15/code/Day01" />
     <SUITE FILE_PATH="coverage/Docu$operator.coverage" NAME="operator 覆盖结果" MODIFIED="1667555575704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads/Python-100-Days-master/Day01-15/code/Day02" />
+    <SUITE FILE_PATH="coverage/Docu$peppa_pig.coverage" NAME="peppa_pig 覆盖结果" MODIFIED="1667555572387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads/Python-100-Days-master/Day01-15/code/Day01" />
   </component>
 </project>
