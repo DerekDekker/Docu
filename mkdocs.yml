@@ -75,10 +75,8 @@ nav:
         - Conda: Python/Conda.md
         - 蓝牙: Python/蓝牙.md
         - serial: Python/serial.md
-    - 网络:
-        - socket: 网络/socket.md
-        - TCP: 网络/TCP.md
-        - UDP: 网络/UDP.md
+    - MicroPython: Python/MicroPython.md
+
   - C/C++:
       - 基础: C/基础.md
       - 数据类型: C/数据类型.md
@@ -108,6 +106,8 @@ nav:
           - 基础: ESP32/基础.md
       - 电路:
           - 电路图: 电路/电路图.md
+      - 知识:
+          - 电路: 硬件/知识/电路.md
       - 树莓派:
           - 基础: 树莓派/基础.md
           - 命令: 树莓派/命令.md
