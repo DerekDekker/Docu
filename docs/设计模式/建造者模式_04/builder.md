@@ -1,10 +1,15 @@
-from abc import ABCMeta, abstractmethod
+# 建造者
 
+!!! none ""
 
-"""
-创建一系列复杂对象
-控制顺序
-"""
+    创建一系列复杂对象
+
+    控制顺序
+
+---
+
+## 产品 
+```python
 class Player:
     def __init__(self, face=None, body=None, arm=None, leg=None):
         self.face = face
@@ -15,8 +20,12 @@ class Player:
     def __str__(self):
         return f'{self.face} {self.body} {self.arm} {self.leg}'
 
+```
 
-# 抽象建造者
+---
+## 抽象建造者
+
+```python
 class PlayerBuilder(metaclass=ABCMeta):
     @abstractmethod
     def build_face(self):
@@ -33,9 +42,14 @@ class PlayerBuilder(metaclass=ABCMeta):
     @abstractmethod
     def build_leg(self):
         pass
+```
 
+---
+## 具体建造者
 
-# 女人  具体建造者 隐藏内部结构
+隐藏内部结构
+
+```python title="女人"
 class SexGirlBuilder(PlayerBuilder):
     def __init__(self):
         self.player = Player()
@@ -51,9 +65,9 @@ class SexGirlBuilder(PlayerBuilder):
 
     def build_leg(self):
         self.player.leg = '大腿'
+```
 
-
-# 怪物  具体建造者 隐藏内部结构
+```python title="怪物"
 class Monster(PlayerBuilder):
     def __init__(self):
         self.player = Player()
@@ -70,8 +84,14 @@ class Monster(PlayerBuilder):
     def build_leg(self):
         self.player.leg = '可怕大腿'
 
+```
 
-# 控制者 控制顺序 可以对构建过程更精细的控制
+---
+## 控制者
+
+控制顺序 可以对构建过程更精细的控制
+
+```python
 class PlayerDirector:
     def build_player(self, builder):
         builder.build_body()
@@ -79,12 +99,17 @@ class PlayerDirector:
         builder.build_arm()
         builder.build_leg()
         return builder.player
+```
 
 
-# 客户端
+---
+## 客户端
+
+```python
 builder = Monster()
 director = PlayerDirector()
 p = director.build_player(builder)
 print(p)
+```
 
 
