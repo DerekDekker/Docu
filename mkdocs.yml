@@ -94,6 +94,8 @@ nav:
       - 扩展: Flutter/扩展.md
       - bloc: Flutter/bloc.md
       - Provider: Flutter/Provider.md
+  - Solidity:
+      - 基础: Solidity/基础.md
   - Linux:
       - 命令: Linux/命令.md
       - 系统工具: Linux/系统工具.md
