@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cec12044-66c9-4127-8657-6144d5c5cbe8" name="变更" comment="提交">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Django/框架.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Django/框架.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Markdown/代码.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Markdown/基础.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mkdocs.yml" afterDir="false" />
-    </list>
+    <list default="true" id="cec12044-66c9-4127-8657-6144d5c5cbe8" name="变更" comment="提交" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -333,14 +327,7 @@
       <workItem from="1669555798253" duration="27000" />
       <workItem from="1669976374002" duration="3356000" />
       <workItem from="1670046013855" duration="17758000" />
-      <workItem from="1671289203567" duration="2195000" />
-    </task>
-    <task id="LOCAL-00001" summary="test">
-      <created>1659843823314</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1659843823314</updated>
+      <workItem from="1671289203567" duration="2639000" />
     </task>
     <task id="LOCAL-00002" summary="test">
       <created>1659848842518</created>
@@ -678,7 +665,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670090576777</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="提交">
+      <created>1671291570743</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1671291570743</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
