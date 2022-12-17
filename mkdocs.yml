@@ -220,7 +220,7 @@ nav:
       - yaml: 扩展/yaml.md
       - Markdown:
         - 代码: Markdown/基础.md
-        - Material for MkDocs: Material for MkDocs/基础.md
+        - Material for MkDocs: Material for MkDocs/代码.md
       - Tor:
           - 代码: home/index.md
       - Final Cut Pro:
